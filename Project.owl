@@ -76,6 +76,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#hasAunt">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isAunt"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -84,6 +86,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#hasBrother">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -93,6 +97,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#hasDaughter">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isDaughter"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -102,6 +108,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#hasFather">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isFather"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -111,6 +119,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#hasFriend">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isFriend"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -138,6 +148,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#hasLover">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isLover"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -147,6 +159,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#hasMother">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isMother"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -156,6 +170,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#hasPartners">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isPartner"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -219,6 +235,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#hasSons">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isSon"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -228,6 +246,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#hasUncle">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isUncle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -262,6 +282,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isAunt">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -275,6 +297,8 @@
                 <owl:inverseOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#hasDaughter"/>
             </rdf:Description>
         </rdfs:subPropertyOf>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -283,6 +307,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isFather">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -291,6 +317,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isFriend">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -320,6 +348,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isLover">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -328,6 +358,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isMother">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -336,6 +368,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isPartner">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -391,6 +425,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isSon">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -399,6 +435,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isUncle">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -470,7 +508,10 @@
 
     <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#AliasName -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#AliasName"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#AliasName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
     
 
 
@@ -504,6 +545,7 @@
     <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#disasterType -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#disasterType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Disasters"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -1317,6 +1359,48 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Yama">
         <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Animals"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleSkills"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Birds"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Boons"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#CelestialObjects"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cities"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Curses"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Deities"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Drinks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Dynasty"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Events"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Flowers"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Food"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Fruits"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Games"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Kingdom"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#PlaceOfGuard"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#SocietalRole"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Terrains"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Trees"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vegetables"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vehicles"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#War"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
