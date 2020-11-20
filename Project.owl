@@ -76,6 +76,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#hasAunt">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isAunt"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -84,6 +86,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#hasBrother">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -93,6 +97,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#hasDaughter">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isDaughter"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -102,6 +108,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#hasFather">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isFather"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -111,6 +119,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#hasFriend">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isFriend"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -138,6 +148,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#hasLover">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isLover"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -147,6 +159,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#hasMother">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isMother"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -156,6 +170,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#hasPartners">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isPartner"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -219,6 +235,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#hasSons">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isSon"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -228,6 +246,8 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#hasUncle">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isUncle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -262,6 +282,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isAunt">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -275,6 +297,8 @@
                 <owl:inverseOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#hasDaughter"/>
             </rdf:Description>
         </rdfs:subPropertyOf>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -283,6 +307,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isFather">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -291,6 +317,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isFriend">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -320,6 +348,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isLover">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -328,6 +358,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isMother">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -336,6 +368,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isPartner">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -391,6 +425,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isSon">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -399,6 +435,8 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#isUncle">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
     </owl:ObjectProperty>
     
 
@@ -470,7 +508,10 @@
 
     <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#AliasName -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#AliasName"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#AliasName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
     
 
 
@@ -504,6 +545,7 @@
     <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#disasterType -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#disasterType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Disasters"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -740,7 +782,6 @@
     <owl:Class rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Male"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
     </owl:Class>
     
 
@@ -838,7 +879,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Male">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
     </owl:Class>
     
 
@@ -1096,10 +1136,499 @@
     
 
 
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Abhijit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Abhijit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Achlys -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Achlys">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aegea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aegea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aella -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aella">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aello -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aello">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aescaus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aescaus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aeternae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aeternae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Agreus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Agreus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Agriopas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Agriopas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Agrius -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Agrius">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Alcibie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Alcibie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Alcyoneus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Alcyoneus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Alecto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Alecto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Alfheim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Alfheim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Alke -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Alke">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Almops -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Almops">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aloadae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aloadae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ampelos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ampelos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Amphisbaena -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Amphisbaena">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Amphithemis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Amphithemis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Amycus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Amycus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Andromeda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Andromeda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#AndrosphinxOrSimplySphinx -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#AndrosphinxOrSimplySphinx">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Anjalikastra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Anjalikastra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Antandre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Antandre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Antiope -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Antiope">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Antiphates -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Antiphates">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aphrodite -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aphrodite">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aphros -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aphros">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Apollo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Apollo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aquarius -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aquarius">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aquila -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aquila">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Arae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Arae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ares -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ares">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Areto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Areto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Arges -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Arges">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#ArgusOrArgusPanoptes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#ArgusOrArgusPanoptes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#ArrowOfBrahma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#ArrowOfBrahma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aruna -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aruna">
         <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#AsarBardagi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#AsarBardagi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Asbetos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Asbetos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Asbolus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Asbolus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Asgard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Asgard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Asteria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Asteria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Asterius -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Asterius">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Athos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Athos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Atlas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Atlas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Atria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Atria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Auriga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Auriga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ayudhapurusha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ayudhapurusha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Azeus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Azeus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Bienor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Bienor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Blóðstjarna -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Blóðstjarna">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Bootes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Bootes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BrahmashirshaAstra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BrahmashirshaAstra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Brahmastra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Brahmastra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Bremusa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Bremusa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BriareosOrAegaeon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BriareosOrAegaeon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Briareus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Briareus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Brontes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Brontes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
     </owl:NamedIndividual>
     
 
@@ -1112,10 +1641,164 @@
     
 
 
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Bythos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Bythos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Bṛhaspati -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Bṛhaspati">
         <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cancer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cancer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#CanisMajor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#CanisMajor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#CannaeTactic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#CannaeTactic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Capricorn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Capricorn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cassiopeia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cassiopeia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Catoblepas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Catoblepas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Celaeno -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Celaeno">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#CentaurAndCentauride -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#CentaurAndCentauride">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Centaurs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Centaurs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Centaurus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Centaurus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cepheus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cepheus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cerastes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cerastes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ceres -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ceres">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ceteus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ceteus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cetus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cetus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#CetusOrCeto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#CetusOrCeto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ceuthonymus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ceuthonymus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Chakram -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Chakram">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
     </owl:NamedIndividual>
     
 
@@ -1136,9 +1819,305 @@
     
 
 
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Chandrahas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Chandrahas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Charon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Charon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Charybdis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Charybdis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Chentu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Chentu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Chimera -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Chimera">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Chiron -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Chiron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Chthonius -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Chthonius">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Circe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Circe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Coil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Coil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Column -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Column">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#CorinthianLamia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#CorinthianLamia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cottus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cottus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Criosphinx -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Criosphinx">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#CrocottaOrCynolycus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#CrocottaOrCynolycus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cronus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cronus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Crux -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Crux">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cychreides -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cychreides">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cyclopesone-eyedgiants. -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cyclopesone-eyedgiants.">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cygnus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cygnus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cyllarus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cyllarus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#CyprianCentaurs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#CyprianCentaurs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cypris -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cypris">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cytherea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cytherea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#DaemonesCeramici -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#DaemonesCeramici">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Daemons -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Daemons">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Dagstjarn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Dagstjarn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Damarchus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Damarchus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Damysus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Damysus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Deino -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Deino">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Delphinus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Delphinus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Delphyne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Delphyne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Demeter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Demeter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Dhanishta -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Dhanishta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Dictys -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Dictys">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#DiomedesOfThrace -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#DiomedesOfThrace">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Draco -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Draco">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Dryad -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Dryad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Eagle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Eagle">
         <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
     </owl:NamedIndividual>
     
@@ -1152,6 +2131,175 @@
     
 
 
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Echelon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Echelon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Echion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Echion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Eidolon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Eidolon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Elatus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Elatus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#ElephantGoad -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#ElephantGoad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Empousa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Empousa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Empusa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Empusa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#EnceladusOrEnkelados -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#EnceladusOrEnkelados">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Enyo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Enyo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Eridanus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Eridanus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#EthiopianPegasus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#EthiopianPegasus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Euryale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Euryale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Eurybios -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Eurybios">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Eurynomos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Eurynomos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Eurypyle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Eurypyle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Eurytion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Eurytion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Eurytus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Eurytus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Faunus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Faunus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Fiskikarlar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Fiskikarlar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Fornax -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Fornax">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Gandiva -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Gandiva">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#GarudaVyuha -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#GarudaVyuha">
@@ -1160,10 +2308,349 @@
     
 
 
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Gegenees -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Gegenees">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Gello -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Gello">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Gemini -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Gemini">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Geryon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Geryon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ghosts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ghosts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#GiantomachianDragon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#GiantomachianDragon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Gigantes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Gigantes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Gleneus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Gleneus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Gnógleiksstjarna -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Gnógleiksstjarna">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Gorgons -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Gorgons">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Graeae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Graeae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Griffin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Griffin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Grus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Grus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Gyges -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Gyges">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hades -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hades">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Harpies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Harpies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hecatonchires -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hecatonchires">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Helheim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Helheim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Helios -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Helios">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hellewagen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hellewagen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hercules -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hercules">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hermes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hermes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Herringbone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Herringbone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hieracosphinx -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hieracosphinx">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hippalectryon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hippalectryon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hippocampus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hippocampus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hippolyta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hippolyta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hippothoe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hippothoe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hydra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hydra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hydras -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hydras">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hylaeus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hylaeus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hylonome -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hylonome">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ichthyocentaurs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ichthyocentaurs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#InvertedWedge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#InvertedWedge">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Iphito -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Iphito">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ipotane -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ipotane">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Jotunheim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Jotunheim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Jupiter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Jupiter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Karlvagn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Karlvagn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Kaumodaki -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Kaumodaki">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Keres -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Keres">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ketu -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ketu">
         <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Kobaloi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Kobaloi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
     </owl:NamedIndividual>
     
 
@@ -1184,6 +2671,159 @@
     
 
 
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Kvennavagn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Kvennavagn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ladon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ladon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#LaestrygoniansOrLaestrygones -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#LaestrygoniansOrLaestrygones">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Lamia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Lamia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Lamiai. -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Lamiai.">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#LamianCentaursOrLamianPheres -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#LamianCentaursOrLamianPheres">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Lampedo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Lampedo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Leidarstjarna -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Leidarstjarna">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Leo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Leo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#LeonOrLion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#LeonOrLion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Lepus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Lepus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#LernaeanHydra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#LernaeanHydra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Libra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Libra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Line -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Line">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Lion-HeadedGiants -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Lion-HeadedGiants">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Lycaon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Lycaon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Lyra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Lyra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MacedonianPhalanx -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MacedonianPhalanx">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MaeonianDrakon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MaeonianDrakon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MakaraVyuha -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MakaraVyuha">
@@ -1200,10 +2840,369 @@
     
 
 
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#ManticoreOrAndrophagos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#ManticoreOrAndrophagos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Marpesia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Marpesia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Mars -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Mars">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Marsyas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Marsyas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Medea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Medea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Medusa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Medusa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Megaera -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Megaera">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Meginstjarna -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Meginstjarna">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Melanippe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Melanippe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Mercury -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Mercury">
         <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Merpeople -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Merpeople">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Midgard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Midgard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Mimas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Mimas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Minotaur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Minotaur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Molpadia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Molpadia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Monoceros -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Monoceros">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MormoOrMormolyceaeOrMormolyce -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MormoOrMormolyceaeOrMormolyce">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Mormolykeia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Mormolykeia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Mudgar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Mudgar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Multi-headedDogs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Multi-headedDogs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Muspelheim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Muspelheim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Myrina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Myrina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Málsstjarna -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Málsstjarna">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Nandaka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Nandaka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Narayanastra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Narayanastra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#NemeanDragon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#NemeanDragon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Neptune -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Neptune">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Nessus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Nessus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Nidhogg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Nidhogg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Niflheim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Niflheim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Nomeon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Nomeon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Nomios -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Nomios">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Octanis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Octanis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ocypete -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ocypete">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Odontotyrannos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Odontotyrannos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Omodamos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Omodamos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Onocentaur -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Onocentaur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#OphiogeneanDragon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#OphiogeneanDragon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ophiuchus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ophiuchus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Orion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Orion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Orithyia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Orithyia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Orthaon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Orthaon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Orthrus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Orthrus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Otrera -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Otrera">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ouroboros -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ouroboros">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
     </owl:NamedIndividual>
     
 
@@ -1216,10 +3215,333 @@
     
 
 
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pallas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pallas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Panes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Panes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pantariste -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pantariste">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Parashu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Parashu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pashupatastra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pashupatastra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pegasus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pegasus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pemphredo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pemphredo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Penthesilea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Penthesilea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Periboea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Periboea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Perimedes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Perimedes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Perseus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Perseus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Petraeus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Petraeus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Phalanx -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Phalanx">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Phanes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Phanes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Philinnion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Philinnion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Phoenix -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Phoenix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pholus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pholus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pinaka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pinaka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pisces -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pisces">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#PitanianDragon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#PitanianDragon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Plouton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Plouton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pluto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pluto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Polaris -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Polaris">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Polybotes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Polybotes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Polyphemus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Polyphemus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Porphyrion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Porphyrion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Poseidon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Poseidon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Prekstjarna -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Prekstjarna">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#ProtectedFlank -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#ProtectedFlank">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Puppis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Puppis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pyrausta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pyrausta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Python -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Python">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Rahu -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Rahu">
         <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ratatosk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ratatosk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Rhaecus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Rhaecus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#RhodianDragons -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#RhodianDragons">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Rhoetus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Rhoetus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Riphonus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Riphonus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#RomanManipularFormation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#RomanManipularFormation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Sabaktes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Sabaktes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Sagittarius -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Sagittarius">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
     </owl:NamedIndividual>
     
 
@@ -1240,10 +3562,82 @@
     
 
 
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Saturn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Saturn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#SatyrsAndSatyresses -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#SatyrsAndSatyresses">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Scorpio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Scorpio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Scylla -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Scylla">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#ScythianDracanae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#ScythianDracanae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#SeaGoats -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#SeaGoats">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Selene -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Selene">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Serpens -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Serpens">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Shani -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Shani">
         <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Sharanga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Sharanga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
     </owl:NamedIndividual>
     
 
@@ -1280,6 +3674,158 @@
     
 
 
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#SilenusOrPapposilenus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#SilenusOrPapposilenus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#SimhaVyuha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#SimhaVyuha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Sirens -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Sirens">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Skirmish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Skirmish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Skolopendra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Skolopendra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Smaragos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Smaragos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Sorceresses -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Sorceresses">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Spargeus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Spargeus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Spartae -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Spartae">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Sphinx -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Sphinx">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Square -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Square">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#StaggeredColumn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#StaggeredColumn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Steropes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Steropes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Stheno -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Stheno">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#StrongRightFlank -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#StrongRightFlank">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#StymphalianBirds -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#StymphalianBirds">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#SuchiVyuha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#SuchiVyuha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#SudarshanaChakra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#SudarshanaChakra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Sudrstjarna -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Sudrstjarna">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Surya -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Surya">
@@ -1288,9 +3834,226 @@
     
 
 
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Svartalfheim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Svartalfheim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Syntribos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Syntribos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Taraxippi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Taraxippi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Taurus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Taurus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Testudo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Testudo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Thalestris -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Thalestris">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Thaumas. -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Thaumas.">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#TheColchianDragon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#TheColchianDragon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#TheIsmenianDragon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#TheIsmenianDragon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#ThespianDragon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#ThespianDragon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Thoon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Thoon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Three-BodiedOrTriple-BodiedDaemon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Three-BodiedOrTriple-BodiedDaemon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Tisiphone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Tisiphone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Tityos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Tityos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Trishula -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Trishula">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Triton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Triton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#TrojanDragons -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#TrojanDragons">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#TyphonOrTyphoeus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#TyphonOrTyphoeus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#UnicornsOrMonocerata -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#UnicornsOrMonocerata">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Uranos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Uranos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Uranus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Uranus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#UrsaMajor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#UrsaMajor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#UrsaMinor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#UrsaMinor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#VFormation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#VFormation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vajra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vajra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#VajraVyuha -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#VajraVyuha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vanaheim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vanaheim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vanguard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vanguard">
         <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
     </owl:NamedIndividual>
     
@@ -1304,10 +4067,122 @@
     
 
 
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Varunastra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Varunastra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vayuvyastra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vayuvyastra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vedrfolnir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vedrfolnir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vega -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vega">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vela -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vela">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Venus -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Venus">
         <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vidofnir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vidofnir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Virgo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Virgo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vulpecula -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vulpecula">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Wagon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Wagon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Wedge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Wedge">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#WerewolfOrLycanthrope. -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#WerewolfOrLycanthrope.">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#WingedCentaurs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#WingedCentaurs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#WingedHorsesOrPterippi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#WingedHorsesOrPterippi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
     </owl:NamedIndividual>
     
 
@@ -1317,6 +4192,223 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Yama">
         <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Planet"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#ZamaTactic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#ZamaTactic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#skjaldborg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#skjaldborg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Acephali/HeadlessMen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Acephali/HeadlessMen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Asi(Mahabharata) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Asi(Mahabharata)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Astra(weapon) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Astra(weapon)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aurvandil’sToe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Aurvandil’sToe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cerberus(Hellhound) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cerberus(Hellhound)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Demeter&apos;sDragons -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Demeter&apos;sDragons">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Duneyr(drooping-ears) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Duneyr(drooping-ears)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Durathror(sluggishbeast) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Durathror(sluggishbeast)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Dvalin(sleeper) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Dvalin(sleeper)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Erinyes(Furies) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Erinyes(Furies)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Friggerock(Frigg’sdistaff) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Friggerock(Frigg’sdistaff)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Gada(mace) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Gada(mace)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Jyoti(goddess) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Jyoti(goddess)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Medea&apos;sDragons -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Medea&apos;sDragons">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ophiotaurus(Bull-Serpent) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ophiotaurus(Bull-Serpent)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pasipha√´ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pasipha√´">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ph√≥los. -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ph√≥los.">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Thiassi’sEyes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Thiassi’sEyes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ulf&apos;sKeptr -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Ulf&apos;sKeptr">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vijaya(bow) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vijaya(bow)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Animals"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleSkills"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Birds"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Boons"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#CelestialObjects"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Cities"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Curses"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Deities"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Drinks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Dynasty"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Events"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Flowers"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Food"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Fruits"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Games"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Kingdom"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#PlaceOfGuard"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#SocietalRole"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Terrains"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Trees"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vegetables"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vehicles"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#War"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Weapon"/>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
