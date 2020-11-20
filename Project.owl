@@ -10,13 +10,7 @@
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    
 
     
 
@@ -4399,6 +4393,7 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Fruits"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Games"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Kingdom"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#PlaceOfGuard"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#SocietalRole"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Terrains"/>
