@@ -494,6 +494,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#performed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#performed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Rituals"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#relations">
@@ -1480,6 +1489,7 @@
         <hasBrother rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Yudhisthira"/>
         <hasFather rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pandu"/>
         <hasMother rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Kunti"/>
+        <hasPartners rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Draupadi"/>
         <isPrinceOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hastinapur"/>
     </owl:NamedIndividual>
     
@@ -1618,6 +1628,7 @@
         <hasBrother rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Yudhisthira"/>
         <hasFather rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pandu"/>
         <hasMother rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Kunti"/>
+        <hasPartners rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Draupadi"/>
         <isPrinceOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hastinapur"/>
     </owl:NamedIndividual>
     
@@ -2197,6 +2208,35 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Draco">
         <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Star"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Draupadi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Draupadi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Princess"/>
+        <hasFather rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Drupada"/>
+        <hasFriend rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Krishna"/>
+        <hasPartners rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Arjun"/>
+        <hasPartners rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Bhim"/>
+        <hasPartners rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Nakul"/>
+        <hasPartners rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Sahadev"/>
+        <hasPartners rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Yudhisthira"/>
+        <isPrincessOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Panchala"/>
+        <AliasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Panchali</AliasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Drupada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Drupada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Kings"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Male"/>
+        <hasDaughter rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Draupadi"/>
+        <isKingOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Panchala"/>
     </owl:NamedIndividual>
     
 
@@ -2805,8 +2845,10 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Gods"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Male"/>
         <hasFather rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Vasudev"/>
+        <hasFriend rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Draupadi"/>
         <hasMother rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Devaki"/>
         <hasPartners rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Rukmini"/>
+        <hasPartners rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Sathyabhama"/>
     </owl:NamedIndividual>
     
 
@@ -3224,6 +3266,7 @@
         <hasBrother rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Yudhisthira"/>
         <hasFather rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pandu"/>
         <hasMother rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Madri"/>
+        <hasPartners rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Draupadi"/>
         <isPrinceOf rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Hastinapur"/>
     </owl:NamedIndividual>
     
@@ -3420,6 +3463,16 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pallas">
         <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#MythicalCreature"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Panchala -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Panchala">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Kingdom"/>
+        <hasKing rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Drupada"/>
+        <hasPrincess rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Draupadi"/>
     </owl:NamedIndividual>
     
 
@@ -3797,6 +3850,7 @@
         <hasBrother rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Yudhisthira"/>
         <hasFather rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pandu"/>
         <hasMother rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Madri"/>
+        <hasPartners rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Draupadi"/>
     </owl:NamedIndividual>
     
 
@@ -3813,6 +3867,15 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#SarpaVyuha">
         <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#BattleFormations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Sathyabhama -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Sathyabhama">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+        <hasPartners rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Krishna"/>
     </owl:NamedIndividual>
     
 
@@ -4480,6 +4543,8 @@
         <hasFather rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Pandu"/>
         <hasFather rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Yama"/>
         <hasMother rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Kunti"/>
+        <hasPartners rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Draupadi"/>
+        <performed rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Rajasuya"/>
         <AliasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dharma Raja</AliasName>
     </owl:NamedIndividual>
     
