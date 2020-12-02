@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="author" content="colorlib.com">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
     <link href="css/main.css" rel="stylesheet" />
   </head>
   <body>
@@ -14,20 +15,84 @@
           <legend>Search Query</legend>
         </fieldset>
         <div class="inner-form">
-          <div class="input-field first-wrap">
-            <input id="search" type="text" placeholder="Query 1" />
-          </div>
-          <div class="input-field second-wrap">
-            <input id="location" type="text" placeholder="Query 2" />
-          </div>
-          <div class="input-field fourth-wrap">
-            <input id="distance" type="text" placeholder="Query 3" />
-          </div>
-          <div class="input-field third-wrap">
-            <button class="btn-search" type="button">Search</button>
-          </div>
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                  <li class="input-field first-wrap">
+                    <input id="search" type="text" placeholder="Query 1" />
+                  <div class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Search <span class="caret"></span></a>
+                    <div class="dropdown-menu">
+                      <ul>
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  </li>
+                  <li class="input-field first-wrap">
+                    <input id="search" type="text" placeholder="Query 2" />
+                  <div class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Search <span class="caret"></span></a>
+                    <div class="dropdown-menu">
+
+                      <ul>
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="input-field first-wrap">
+                  <input id="search" type="text" placeholder="Query 3" />
+                <div class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Search <span class="caret"></span></a>
+                  <div class="dropdown-menu">
+
+                    <ul>
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li><a href="#">Separated link</a></li>
+                      <li><a href="#">One more separated link</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="input-field first-wrap">
+                <button class="btn-search" type="button">Get Results</button>
+              </li>
+                </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+          </nav>
+          <!-- partial -->
         </div>
       </form>
     </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
   </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 </html>

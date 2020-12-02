@@ -64,8 +64,9 @@ body {
   }
 }
 
+
 @media (max-width: 991px) {
-  /* collapse on sm size*/
+  /* collapse on sm size */
   .navbar-header {
     float: none;
   }
@@ -117,6 +118,7 @@ body {
     box-shadow: none;
   }
 }
+
 /**
  * Add the correct display in IE 9-.
  */
@@ -647,20 +649,20 @@ legend {
   margin-right: 0;
 }
 
-.s01 form .inner-form .input-field.third-wrap .btn-search {
+.s01 form .inner-form .input-field.first-wrap .btn-search {
   height: 100%;
   width: 100%;
   background: #4272d7;
   white-space: nowrap;
   border-radius: .5px;
-  font-size: 20px;
+  font-size: 24px;
   color: #fff;
   transition: all .2s ease-out, color .2s ease-out;
   border: 0;
   cursor: pointer;
 }
 
-.s01 form .inner-form .input-field.third-wrap .btn-search:hover {
+.s01 form .inner-form .input-field.first-wrap .btn-search:hover {
   background: #2d62d3;
 }
 
@@ -700,17 +702,18 @@ legend {
     margin-bottom: 20px;
   }
   .s01 form .inner-form .input-field.second-wrap {
-    width: calc(25% - 10px);
-    min-width: auto;
+    width: 25%;
+    margin-bottom: 20px;
   }
   .s01 form .inner-form .input-field.fourth-wrap {
-    width: calc(25% - 10px);
-    min-width: auto;
+    width: 25%;
+    margin-bottom: 20px;
   }
   .s01 form .inner-form .input-field.third-wrap {
-    width: calc(50% - 10px);
+    width: calc(15% - 10px);
+    min-width: auto;
   }
-  .s01 form .inner-form .input-field.third-wrap .btn-search {
-    font-size: 16px;
+  .s01 form .inner-form .input-field.first-wrap .btn-search {
+    font-size: 24px;
   }
 }
