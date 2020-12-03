@@ -2,7 +2,7 @@ import requests
 import json
 from SPARQLWrapper import SPARQLWrapper, JSON, XML
 
-sparql = SPARQLWrapper("http://18.144.52.83:3030/ser531")
+sparql = SPARQLWrapper("http://3.101.82.158:3030/SER531")
 
 
 prefix_template = "<http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#{0}>"
@@ -34,19 +34,39 @@ def clean_data(data={}):
 					binding[var]['value'] = binding[var]['value'].split('#')[1]
 	return data
 
+def get_predicates(data={}):
+	predicates = []
+	bindings = data['results']['bindings']
 
+	for binding in bindings:
+		if "predicate" in binding:
+			if binding["predicate"]["type"] == 'uri':
+				val = binding["predicate"]['value'].split('#')[1]
+				if val != 'type':
+					predicates.append(binding["predicate"]['value'].split('#')[1])
+	return list(set(predicates))
 
+'''
+	result Fuseki endpoint.
+'''
 def load_data(query):
 	sparql.setQuery(query)
 	sparql.setReturnFormat(JSON)
 	results = sparql.query().convert()
 	return results
 
+'''
+	getting predicates 
+'''
 def form_query(character, filter="?predicate"):
 	prefix_subject = prefix_template.format(character)
 	query = main_template.format(where_clause=clause_template.format(subject=prefix_subject, predicate=filter, object="?object"), var1="?subject", var2="?predicate", var3="?object")
 	return query
 
+
+'''
+	one character multi filters
+'''
 def form_query2(character, filters=[], vars=[]):
 	where = []
 	prefix_subject = prefix_template.format(character)
