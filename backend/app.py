@@ -16,6 +16,23 @@ def show_dropdown_list(character):
     data = load_data.clean_data(data)
     return data
 
+
+
+    
+
+
+
+@app.route('/process/', methods=["POST"])
+def process():
+    req = request.get_json()
+    print(req)
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    response.content_type = "application/json"
+    response.data = req
+    return response
+
+
+
 @app.route('/show/')
 def show_result():
 	character = request.args.get('character')

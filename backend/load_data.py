@@ -53,4 +53,5 @@ def form_query2(character, filters=[], vars=[]):
 	for i in range(len(filters)):
 		where.append(clause_template.format(subject=prefix_subject,object=vars[i] ,predicate=prefix_template.format(filters[i])))
 	query = main_template.format(where_clause=''.join(where),var1=vars[0], var2=vars[1], var3=vars[2] )
+	print(query)
 	return query
