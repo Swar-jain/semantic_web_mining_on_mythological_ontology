@@ -17,9 +17,9 @@ def hello_world():
 def show_dropdown_list():
 	response = {'result': []}
 	result = []
-	data = request.get_json()
+	data = request.args.get("character0")
 	if data:
-		query = load_data.form_query(data["characters"][0])
+		query = load_data.form_query(data)
 		data = load_data.load_data(query)
 		result = load_data.get_predicates(data)
 	if result:

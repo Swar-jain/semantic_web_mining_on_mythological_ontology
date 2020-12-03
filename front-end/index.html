@@ -29,9 +29,9 @@
         <a class="nav-link" href="#">Link</a>
       </li> -->
       <li class="nav-item dropdown">
-<!--        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Dropdown
-        </a> -->
+        </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">Action</a>
           <a class="dropdown-item" href="#">Another action</a>
@@ -56,35 +56,28 @@
   <div class="row">
     <div class="col-sm">
         <h6>Mythology</h6>
-      <select id="mythologyselect" class="selectpicker" multiple data-live-search="true">
-          <option value="1" >Mahabharat</option>
-          <option>Greek</option>
-        </select>
+      <select name="mythology" id="mythology">
+        <option value="Indian">Indian</option>
+        <option value="Greek">Greek</option>
+      </select>
     </div>
     <div class="col-sm">
         <h6>Characters</h6>
-     <select class="selectpicker" multiple data-live-search="true">
-          <option>Yudhiusthir</option>
-          <option>Draupadi</option>
-
-        </select>
+     <select name="characters" id="characterselect">
+        <option value="Arjun">Arjun</option>
+        <option value="Draupadi">Draupadi</option>
+      </select>
     </div>
         <div class="col-sm">
                    <h6>Filters</h6>
-     <select class="selectpicker" multiple data-live-search="true">
-          <option>Mustard</option>
-          <option>Ketchup</option>
-          <option>Relish</option>
-        </select>
+     <select name="filters" id="filters">
+      </select>
     </div>
             <!-- </div> -->
     <div class="col-sm">
            <h6>Special</h6>
-     <select class="selectpicker" multiple data-live-search="true">
-          <option>Mustard</option>
-          <option>Ketchup</option>
-          <option>Relish</option>
-        </select>
+     <select name="SPecial" id="cars">
+      </select>
     </div>
     <!-- </div> -->
 
@@ -108,37 +101,65 @@
     var selected_characters=[];
     var selected_filters = [];
 
-    function httpGet(theUrl)
+    function httpGet(theUrl, characters)
         {
-            var url = "http://127.0.0.1:5001/process/";
-            var data = {"mythology": "mahabs",
-                            "characters": ["Idhant"]
-                        };
-              var xhr = new XMLHttpRequest();
-              xhr.open("POST", url, false);
-              xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8', 'Access-Control-Allow-Origin', '*');
+          console.log(characters);
+            // var url = "http://3.101.82.158:8080/"+ theUrl;
+            var url = "http://127.0.0.1:5000/" + theUrl;
+            // JSONObject data = new JSONObject();
+            // var data = {"mythology": "mahabs",
+            //                 "characters": [characters.toString()]
+            //             };
+            // data.put("mythology": "mahabs");
+            // data.put("characters:": characters);
+            params = '';
+            for (var i=0; i<characters.length; i++){
+              params += "character" + i.toString() + "=" + characters[i] + "&";
+            }
 
-              // send the collected data as JSON
-              xhr.send(JSON.stringify(data));
-
-              xhr.onloadend = function () {
-                // done
-              };
+            // console.log(params);
+            var http = new XMLHttpRequest();
+              http.open("GET", url+"?"+params, true);
+              http.onreadystatechange = function()
+              {
+                  if(http.readyState == 4 && http.status == 200) {
+                      console.log(http.responseText);
+                  }
+              }
+              http.send(null);
 
 
             // var xmlHttp = new XMLHttpRequest();
-            // xmlHttp.open( "GET", theUrl, false );
+            // xmlHttp.open( "GET", theUrl, false ); 
             // xmlHttp.send( null );
             // return xmlHttp.responseText;
         }
+      function updateOptions(divid, options=['idahnt', 'is', 'awesome', 'af']){
+        // console.log(document.getElementById(divid));
+        // console.log('reachd')
+        myselect = document.getElementById("filtersoptions");
+        myselect.options = null;
+        for (var i=0; i<options.length;i++){
+            var currentText = options[i];
+            var objOption = document.createElement("option");
+            objOption.text = currentText;
+            objOption.value = currentText;
 
-        function selectedoption(option){
-            console.log(option)
-        }
+            //myselect.add(objOption);
+            myselect.options.add(objOption);
+          }
+          console.log(myselect);
+      }
 
-    $('#mythologyselect').change(function () {
-        var selectedItem = $('#mythologyselect').val();
-        httpGet("sds");
+
+
+    $('#characterselect').change(function () {
+        var selectedItem = $('#characterselect').val();
+        console.log(selectedItem);
+        httpGet("dropdown", selectedItem);
+        // updateOptions("filtersoptions"
+        // $('.example').append('<option val="'+"newitemnum"+'">'+"newitemdesc"+'</option>')
+        // $('.selectpicker').selectpicker('render');
     });
   </script>
 </html>
