@@ -81,7 +81,7 @@
     </div>
     <!-- </div> -->
 
-    <button id="searchbutton" type="button" onclick="createTable()" class="btn btn-success">Search</button>
+    <button id="searchbutton" type="button" onclick="process()" class="btn btn-success">Search</button>
   </div>
     </div>
 
@@ -318,19 +318,24 @@
 
     function process(){
       params = getParams();
+      console.log(params);
       response = httpGet2('singlecharacter', params);
-      createTable(response);
+      console.log(response);
+      console.log(JSON.parse(response));
+      // createTable(response);
     }
 
     function httpGet2(theUrl, params){
       var url = "http://127.0.0.1:5000/" + theUrl;
       var http = new XMLHttpRequest();
-      http.open("GET", url+"?"+params, true);
+      http.open("GET", url+"?"+params, false);
       http.onreadystatechange = function()
       {
           if(http.readyState == 4 && http.status == 200) {
-              return JSON.parse(http.responseText);
-              // console.log(http.responseText);
+            // console.log( JSON.parse(http.responseText));
+            var x =  http.responseText;
+              return x;
+              
             }
       }
       http.send(null);
