@@ -2,9 +2,9 @@ import requests
 import json
 from SPARQLWrapper import SPARQLWrapper, JSON, XML
 
-sparql = SPARQLWrapper("http://3.101.82.158:3030/SER531")
-# sparql = SPARQLWrapper("http://dbpedia.org/sparql")
 
+# sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+sparql = SPARQLWrapper("http://3.101.82.158:3030/SER531")
 
 prefix_template = "<http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#{0}>"
 
@@ -45,7 +45,8 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-PREFIX SER531: <http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#> SELECT DISTINCT {object} WHERE {{ {{{where_clause1}}} UNION {{{where_clause2}}} }}
+PREFIX SER531: <http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#>
+ SELECT DISTINCT {object} WHERE {{ {{{where_clause1}}} UNION {{{where_clause2}}} }}
 '''
 
 def clean_data(data={}):
@@ -58,7 +59,7 @@ def clean_data(data={}):
 			if var in binding:
 				if binding[var]['type'] == 'uri':
 					binding[var]['value'] = binding[var]['value'].split('#')[1]
-					
+
 
 	return data
 
@@ -99,7 +100,8 @@ def form_query2(character, filters=[], vars=[]):
 	where = []
 	prefix_subject = prefix_template.format(character)
 	for i in range(len(filters)):
-		where.append(clause_template.format(subject=prefix_subject,object=vars[i] ,predicate=prefix_template.format(filters[i])))
+		if filters[i]:
+			where.append(clause_template.format(subject=prefix_subject,object=vars[i] ,predicate=prefix_template.format(filters[i])))
 	query = main_template.format(where_clause=''.join(where),var1=vars[0], var2=vars[1], var3=vars[2] )
 	print(query)
 	return query
@@ -123,7 +125,7 @@ def form_query3(character1,character2, filter, vars):
 	'''
 def form_query4(character):
 
-	subject1 = prefix2.format(character)
+	# subject1 = prefix2.format(character)
 	# clause1 = clause_template.format(subject=vars, predicate='?property', object='?object')
-	query = template_3.format(subject=subject1)
+	query = template_3.format(subject=character)
 	return query

@@ -1,5 +1,6 @@
 {
   "character_map":{
+
     "Indian Mythology": [
         "Ekalavya",
         "Karna",
@@ -22,7 +23,7 @@
         
     ],
     "Greek Mythology" : ["Zeus",
-        "Hera", 
+        "Hera",
         "Poseidon", 
         "Hades", 
         "Athena", 
@@ -95,8 +96,10 @@
         "Abas",
         "Acastus",
         "Acrisius",
-        "Actaeus",
-    ]
+
+        "Actaeus"
+    ],
+
     "Noted Fictional Characters" : [
         "Brandy",
         "Castalia",
@@ -197,7 +200,7 @@
         "Dyssebeia",
         "Ekecheiria",
         "Epiales"
-    ]
+    ],
     "More information about other mythology" : [
             "yago:Baltic_mythology",
             "yago:Chinese_mythology",
