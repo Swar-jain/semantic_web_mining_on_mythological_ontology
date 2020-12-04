@@ -87,7 +87,10 @@
 
     <div class="container">
       <div class="row">
-        <div id="cooltable">
+        <div >
+          <br><br>
+          <table id="cooltable" class="table">
+          </table>
         </div>
       </div>
     </div>
@@ -106,8 +109,8 @@
     var filters = {}
 
 
-    function createTable(){
-      // tableelement = document.getElementById(cooltable);
+    function createTable(data){
+      tableelement = document.getElementById(cooltable);
 
         // var body = document.getElementsByTagName('body')[0];
    
@@ -140,62 +143,62 @@
   var1 = []
   var2 = []
 
-  dummy = {
-   "head":{
-      "vars":[
-         "var1",
-         "var2",
-         "var3"
-      ]
-   },
-   "results":{
-      "bindings":[
-         {
-            "var1":{
-               "type":"uri",
-               "value":"Mount_Olympus"
-            },
-            "var2":{
-               "type":"uri",
-               "value":"Hades"
-            }
-         },
-         {
-            "var1":{
-               "type":"uri",
-               "value":"Mount_Olympus"
-            },
-            "var2":{
-               "type":"uri",
-               "value":"Poseidon"
-            }
-         },
-         {
-            "var1":{
-               "type":"uri",
-               "value":"Sky"
-            },
-            "var2":{
-               "type":"uri",
-               "value":"Hades"
-            }
-         },
-         {
-            "var1":{
-               "type":"uri",
-               "value":"Sky"
-            },
-            "var2":{
-               "type":"uri",
-               "value":"Poseidon"
-            }
-         }
-      ]
-   }
-}
-  var vars = dummy['head']['vars'];
+//   data = {
+//    "head":{
+//       "vars":[
+//          "var1",
+//          "var2",
+//          "var3"
+//       ]
+//    },
+//    "results":{
+//       "bindings":[
+//          {
+//             "var1":{
+//                "type":"uri",
+//                "value":"Mount_Olympus"
+//             },
+//             "var2":{
+//                "type":"uri",
+//                "value":"Hades"
+//             }
+//          },
+//          {
+//             "var1":{
+//                "type":"uri",
+//                "value":"Mount_Olympus"
+//             },
+//             "var2":{
+//                "type":"uri",
+//                "value":"Poseidon"
+//             }
+//          },
+//          {
+//             "var1":{
+//                "type":"uri",
+//                "value":"Sky"
+//             },
+//             "var2":{
+//                "type":"uri",
+//                "value":"Hades"
+//             }
+//          },
+//          {
+//             "var1":{
+//                "type":"uri",
+//                "value":"Sky"
+//             },
+//             "var2":{
+//                "type":"uri",
+//                "value":"Poseidon"
+//             }
+//          }
+//       ]
+//    }
+// }
+  var vars = data['head']['vars'];
 
-  var bindings = dummy['results']['bindings'];
+  var bindings = data['results']['bindings'];
 
 
   for (var i=0; i < bindings.length; i++){
@@ -219,6 +222,9 @@
 
     var1 = new Set(var1);
     var2 = new Set(var2);
+    var1 = Array.from(var1);
+    var2 = Array.from(var2);
+  
 
 
          var tbl = document.createElement('table');
@@ -226,6 +232,10 @@
 
          var thead = document.createElement('thead');
           var tr = document.createElement('tr');
+
+          var th0 = document.createElement('th0');
+          th0.setAttribute("scope", "col");
+          th0.innerText = 'number';
 
           var th = document.createElement('th');
           th.setAttribute("scope", "col");
@@ -235,55 +245,60 @@
           th1.setAttribute("scope", "col");
           th1.innerText = 'object';
 
+          tr.appendChild(th0);
           tr.appendChild(th);
           tr.appendChild(th1);
 
           thead.appendChild(tr);
 
-          tbl.appendChild(thead);
+          // tbl.appendChild(thead);
 
            var tbdy = document.createElement('tbody'); 
 
            // var tr = document.createElement('tr');
-          for (var i = 0; i < var1.size; i++) {
+          for (var i = 0; i < var1.length; i++) {
             var tr = document.createElement('tr');
             var th = document.createElement('th');
             th.setAttribute("scope", "row");
-            th.innerText = i;
+            th.innerText = i+1;
 
 
             var td1 = document.createElement('td');
             td1.innerText = selected_filters[0];
 
             var td2 = document.createElement('td');
-            td2.innerText = var1[i];
+            td2.innerText = var1[i]; 
             tr.appendChild(th);
             tr.appendChild(td1);
             tr.appendChild(td2);
             tbdy.appendChild(tr);
           }
-          tbl.appendChild(tbdy);
+         
+          // tableelement.appendChild;
+          // console.log(tbl);
 
 
-         // for (var i = 0; i < var1.size; i++) {
-         //    var tr = document.createElement('tr');
-         //    var th = document.createElement('th');
-         //    th.setAttribute("scope", "row");
-         //    th.innerText = i;
+         for (var i = 0; i < var2.length; i++) {
+            var tr = document.createElement('tr');
+            var th = document.createElement('th');
+            th.setAttribute("scope", "row");
+            th.innerText = i+1;
 
 
-         //    var td1 = document.createElement('td');
-         //    td1.innerText = selected_filters[1];
+            var td1 = document.createElement('td');
+            td1.innerText = selected_filters[1];
 
-         //    var td2 = document.createElement('td');
-         //    td2.innerText = var2[i];
-         //    tr.appendChild(th);
-         //    tr.appendChild(td1);
-         //    tr.appendChild(td2);
-         //    tbdy.appendChild(tr);
-         //  }
-}
-  
+            var td2 = document.createElement('td');
+            td2.innerText = var2[i]; 
+            tr.appendChild(th);
+            tr.appendChild(td1);
+            tr.appendChild(td2);
+            tbdy.appendChild(tr);
+          }
+           cooltable.appendChild(thead);
+          cooltable.appendChild(tbdy);
+        }
+
 
     function getParams(){
       selected_mythology = $('#mythology').val();
@@ -297,7 +312,14 @@
               params += "filter" + i.toString() + "=" + selected_filters[i] + "&";
             }
       params += 'mythology=' +  selected_mythology + "&" + 'var1=' + '?var1&' + 'var2=' + '?var2&' + 'var3=' + '?var3';
-      httpGet2('singlecharacter', params);
+      return params;
+      
+    }
+
+    function process(){
+      params = getParams();
+      response = httpGet2('singlecharacter', params);
+      createTable(response);
     }
 
     function httpGet2(theUrl, params){
@@ -307,8 +329,8 @@
       http.onreadystatechange = function()
       {
           if(http.readyState == 4 && http.status == 200) {
-
-              console.log(http.responseText);
+              return JSON.parse(http.responseText);
+              // console.log(http.responseText);
             }
       }
       http.send(null);
