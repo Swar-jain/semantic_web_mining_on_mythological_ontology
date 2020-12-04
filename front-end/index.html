@@ -47,14 +47,6 @@
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
       </li>
-     <!--  <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form> -->
   </div>
 </nav>
 
@@ -89,81 +81,219 @@
     </div>
     <!-- </div> -->
 
-    <button type="button" class="btn btn-success">Search</button>
+    <button id="searchbutton" type="button" onclick="process()" class="btn btn-success">Search</button>
   </div>
     </div>
+
+    <div class="container">
+      <div class="row">
+        <div >
+          <br><br>
+          <table id="cooltable" class="table">
+          </table>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+
+  
 
   </body>
 
   <script>
-    var selected_mythology=[];
+    var selected_mythology='';
     var selected_characters=[];
     var selected_filters = [];
+    var filters = {}
 
-    function httpGet(theUrl, characters)
+
+    function createTable(data){
+      tableelement = document.getElementById(cooltable);
+
+      var1 = []
+      var2 = []
+
+
+      var vars = data['head']['vars'];
+
+      var bindings = data['results']['bindings'];
+
+
+      for (var i=0; i < bindings.length; i++){
+        binding = bindings[i]
+          for (var j=0; j< vars.length; j++){
+            if (vars[j] in binding){ 
+              binding[vars[j]]['value']
+              if (vars[j] === 'var1'){
+                var1.push(binding['var1']['value'])
+              }
+              else if (vars[j] === 'var2'){
+                 var2.push(binding['var2']['value'])
+              }
+              
+
+            }
+          }
+      } 
+
+
+
+    var1 = new Set(var1);
+    var2 = new Set(var2);
+    var1 = Array.from(var1);
+    var2 = Array.from(var2);
+  
+
+
+         var tbl = document.createElement('table');
+         tbl.setAttribute("class", "table");
+
+         var thead = document.createElement('thead');
+          var tr = document.createElement('tr');
+
+          var th0 = document.createElement('th0');
+          th0.setAttribute("scope", "col");
+          th0.innerText = 'number';
+
+          var th = document.createElement('th');
+          th.setAttribute("scope", "col");
+          th.innerText = 'predicate';
+
+          var th1 = document.createElement('th');
+          th1.setAttribute("scope", "col");
+          th1.innerText = 'object';
+
+          tr.appendChild(th0);
+          tr.appendChild(th);
+          tr.appendChild(th1);
+
+          thead.appendChild(tr);
+
+          // tbl.appendChild(thead);
+
+           var tbdy = document.createElement('tbody'); 
+
+           // var tr = document.createElement('tr');
+          for (var i = 0; i < var1.length; i++) {
+            var tr = document.createElement('tr');
+            var th = document.createElement('th');
+            th.setAttribute("scope", "row");
+            th.innerText = i+1;
+
+
+            var td1 = document.createElement('td');
+            td1.innerText = selected_filters[0];
+
+            var td2 = document.createElement('td');
+            td2.innerText = var1[i]; 
+            tr.appendChild(th);
+            tr.appendChild(td1);
+            tr.appendChild(td2);
+            tbdy.appendChild(tr);
+          }
+         
+          // tableelement.appendChild;
+          // console.log(tbl);
+
+
+         for (var i = 0; i < var2.length; i++) {
+            var tr = document.createElement('tr');
+            var th = document.createElement('th');
+            th.setAttribute("scope", "row");
+            th.innerText = i+1;
+
+
+            var td1 = document.createElement('td');
+            td1.innerText = selected_filters[1];
+
+            var td2 = document.createElement('td');
+            td2.innerText = var2[i]; 
+            tr.appendChild(th);
+            tr.appendChild(td1);
+            tr.appendChild(td2);
+            tbdy.appendChild(tr);
+          }
+           cooltable.appendChild(thead);
+          cooltable.appendChild(tbdy);
+        }
+
+
+    function getParams(){
+      selected_mythology = $('#mythology').val();
+      selected_characters = $('#characterselect').val();
+      selected_filters = $('#filters').val();
+      params = '';
+      for (var i=0; i< selected_characters.length; i++){
+              params += "character" + i.toString() + "=" + selected_characters[i] + "&";
+            }
+      for (var i=0; i< selected_filters.length; i++){
+              params += "filter" + i.toString() + "=" + selected_filters[i] + "&";
+            }
+      params += 'mythology=' +  selected_mythology + "&" + 'var1=' + '?var1&' + 'var2=' + '?var2&' + 'var3=' + '?var3';
+      return params;
+      
+    }
+
+    function process(){
+      params = getParams();
+      console.log(params);
+      response = httpGet2('singlecharacter', params);
+      // console.log(response);
+      // console.log();
+      createTable(JSON.parse(response));
+    }
+
+    function httpGet2(theUrl, params){
+      var url = "http://127.0.0.1:5000/" + theUrl;
+      var x;
+      var http = new XMLHttpRequest();
+      http.open("GET", url+"?"+params, false);
+      http.onreadystatechange = function()
+      {
+          if(http.readyState == 4 && http.status == 200) {
+            // console.log( JSON.parse(http.responseText));
+            x =  http.responseText;
+            
+            }
+      }
+      http.send(null);
+      return x;
+    }
+
+
+    function httpGet(theUrl, characters, params='')
         {
-          console.log(characters);
             // var url = "http://3.101.82.158:8080/"+ theUrl;
             var url = "http://127.0.0.1:5000/" + theUrl;
-            // JSONObject data = new JSONObject();
-            // var data = {"mythology": "mahabs",
-            //                 "characters": [characters.toString()]
-            //             };
-            // data.put("mythology": "mahabs");
-            // data.put("characters:": characters);
+
             params = '';
-            for (var i=0; i<characters.length; i++){
+            for (var i=0; i< characters.length; i++){
               params += "character" + i.toString() + "=" + characters[i] + "&";
             }
 
-            // console.log(params);
+            // // console.log(params);
             var http = new XMLHttpRequest();
               http.open("GET", url+"?"+params, true);
               http.onreadystatechange = function()
               {
                   if(http.readyState == 4 && http.status == 200) {
-                      console.log(http.responseText);
-                  }
+
+                      filters = JSON.parse(http.responseText);
+                      updateProperties();
+                    }
               }
               http.send(null);
-
-
-            // var xmlHttp = new XMLHttpRequest();
-            // xmlHttp.open( "GET", theUrl, false ); 
-            // xmlHttp.send( null );
-            // return xmlHttp.responseText;
         }
-      function updateOptions(divid, options=['idahnt', 'is', 'awesome', 'af']){
-        // console.log(document.getElementById(divid));
-        // console.log('reachd')
-        myselect = document.getElementById("filtersoptions");
-        myselect.options = null;
-        for (var i=0; i<options.length;i++){
-            var currentText = options[i];
-            var objOption = document.createElement("option");
-            objOption.text = currentText;
-            objOption.value = currentText;
 
-            //myselect.add(objOption);
-            myselect.options.add(objOption);
-          }
-          console.log(myselect);
-      }
-
-  function updateProperties(args){
+  function updateProperties(){
     var col_select = document.getElementById('characterselect');
     var uv_select = document.getElementById('filters');
   column = col_select.value;
   console.log(column)
-  var properties = {
-              "result": [
-                  "hasFather",
-                  "hasMother",
-                  "isPrinceOf",
-                  "hasPartners",
-                  "hasBrother"
-              ]
-        }
+  properties = filters;
+
   var optionHTML = '';
   if (properties[String("result")]) {
     for (var uv of properties[String("result")]) {
@@ -174,7 +304,7 @@
   $('#filters').trigger('change');
   }
 
-  console.clear()
+
 
 function refreshList(e) {
   var col_select = document.getElementById('mythology');
@@ -206,9 +336,17 @@ $('#characterselect').on('change', function() {
 });
 
 $('#filters').on('change', function() {
-  console.log("hey");
   $('#filters').selectpicker('refresh');
 });
+
+$('#searchbutton').on()
+
+$('#characterselect').on('change', function(){
+  // characters = document.getElementById('characterselect').val();
+  characters = $('#characterselect').val();
+  httpGet('dropdown', characters);
+})
+
 
 
   </script>
