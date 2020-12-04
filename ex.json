@@ -20,6 +20,21 @@
         "Sahadev",
         "Kunti",
         "Pandu",
+        "Vishnu",
+        "Matsya",
+        "Kurma",
+        "Rama",
+        "Dasaratha",
+        "Kausalya",
+        "Sita",
+        "Lakshmana",
+        "Janak",
+        "Ravana",
+        "Urmila",
+        "Bharata",
+        "Shatrughna",
+        "Krishna",
+        
         
     ],
     "Greek Mythology" : ["Zeus",
@@ -96,9 +111,11 @@
         "Abas",
         "Acastus",
         "Acrisius",
-
         "Actaeus"
     ],
+    "Chinese Mythology" : [
+    
+    ], 
 
     "Noted Fictional Characters" : [
         "Brandy",
@@ -200,17 +217,7 @@
         "Dyssebeia",
         "Ekecheiria",
         "Epiales"
-    ],
-    "More information about other mythology" : [
-            "yago:Baltic_mythology",
-            "yago:Chinese_mythology",
-            "yago:Hittite_mythology_and_religion",
-            "yago:Hungarian_mythology",
-            "yago:Japanese_mythology",
-            "yago:Māori_mythology",
-            "yago:Pales",
-            "yago:Slavic_mythology",
-            "yago:Turkic_mythology"
-            ]
+    ]
+    
   }
 }
