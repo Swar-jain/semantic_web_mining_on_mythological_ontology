@@ -1,8 +1,29 @@
 {
   "character_map":{
-    "Indian": [],
-    "Greek" : ["Zeus",
-        "Hera", 
+
+    "Indian Mythology": [
+        "Ekalavya",
+        "Karna",
+        "Bhishma",
+        "Durvasa",
+        "Shantanu",
+        "Shakuni",
+        "Drona",
+        "Ashwathama",
+        "Keechaka",
+        "Sudheshana",
+        "Yudhisthira",
+        "Draupadi",
+        "Arjun",
+        "Bhim",
+        "Nakul",
+        "Sahadev",
+        "Kunti",
+        "Pandu",
+        
+    ],
+    "Greek Mythology" : ["Zeus",
+        "Hera",
         "Poseidon", 
         "Hades", 
         "Athena", 
@@ -75,8 +96,10 @@
         "Abas",
         "Acastus",
         "Acrisius",
+
         "Actaeus"
     ],
+
     "Noted Fictional Characters" : [
         "Brandy",
         "Castalia",
