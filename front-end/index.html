@@ -74,11 +74,11 @@
       </select>
     </div>
             <!-- </div> -->
-    <div class="col-sm">
+ <!--    <div class="col-sm">
            <h6>Special</h6>
      <select name="SPecial" id="cars">
       </select>
-    </div>
+    </div> -->
     <!-- </div> -->
 
     <button id="searchbutton" type="button" onclick="process()" class="btn btn-success">Search</button>
@@ -108,15 +108,212 @@
     var selected_filters = [];
     var filters = {}
 
+    var data = {
+  "character_map":{
+    "Indian": [],
+    "Greek" : ["Zeus",
+        "Hera", 
+        "Poseidon", 
+        "Hades", 
+        "Athena", 
+        "Apollo", 
+        "Artemis", 
+        "Aphrodite", 
+        "Hermes", 
+        "Ares", 
+        "Hephaestus", 
+        "Gaea", 
+        "Ouranos", 
+        "Prometheus",
+        "Epimetheus",
+        "Atlas",
+        "Cronus", 
+        "Dionysus",
+        "Demeter",
+        "Persephone",
+        "Eros",
+        "Tisiphone",
+        "Magaera",
+        "Alecto",
+        "Clotho",
+        "Lachesis",
+        "Atropos",
+        "Odysseus",
+        "Hercules",
+        "Theseus",
+        "Aegeus",
+        "Ariadne",
+        "Jason",
+        "Medea",
+        "Perseus",
+        "Danae",
+        "Medusa",
+        "Oedipus",
+        "Thebes",
+        "Jocasta",
+        "Orestes",
+        "Clytemnestra",
+        "Agamemnon",
+        "Iphigenia",
+        "Paris",
+        "Priam",
+        "Helen",
+        "Hector",
+        "Aeneas",
+        "Achilles", 
+        "Troy",
+        "Trojan",
+        "Pandora",
+        "Achelois",
+        "Achelous",
+        "Aeolus",
+        "Alcestis",
+        "Pelias",
+        "Admetus",
+        "Amymone",
+        "Danaus",
+        "Andromache",
+        "Hector",
+        "Antigone",
+        "Lyrnessus",
+        "Briseis",
+        "Caeneus",
+        "Cassandra",
+        "Deianeira",
+        "Heracles",
+        "Electra",
+        "Abas",
+        "Acastus",
+        "Acrisius",
+        "Actaeus"
+    ],
+    "Noted Fictional Characters" : [
+        "Brandy",
+        "Castalia",
+        "Isis",
+        "Ixtab",
+        "Mnemosyne",
+        "Proserpina",
+        "Sigyn",
+        "Ashtar-Chemosh",
+        "Chandi",
+        "Nuit",
+        "Taotao_Mona",
+        "Frau_Minne",
+        "Ahia_Njoku",
+        "Khamsin",
+        "Mokosh",
+        "Nerthus",
+        "Talthybius",
+        "Ashima",
+        "Ataegina",
+        "Bandonga",
+        "Nabia",
+        "Puckowe",
+        "Acratopotes",
+        "Aegleis",
+        "Achiroe",
+        "Acraea",
+        "Acraepheus",
+        "Anthelea",
+        "Boeotus",
+        "Cestrinus",
+        "Cyllarus",
+        "Ectenes",
+        "Glaucippe",
+        "Hylonome",
+        "Imbrus",
+        "Peristhenes",
+        "Phantes",
+        "Polyctor",
+        "Stygne",
+        "Tashmetum",
+        "Halny",
+        "Qamaits",
+        "Sinivali",
+        "Horme",
+        "Icovellauna",
+        "Akpeteshie",
+        "Anchimolius",
+        "Awilix",
+        "Mononoke",
+        "Chaabou",
+        "Angharradh",
+        "Puana",
+        "Krahang",
+        "Kuino",
+        "Korravai",
+        "Akvavit",
+        "Egbere",
+        "Hariti",
+        "Itzpapalotl",
+        "Alkyonides",
+        "Taweret",
+        "Gabija",
+        "Pelagon",
+        "Saulė",
+        "Tectamus",
+        "Ankou",
+        "Ashnan",
+        "Fylgja",
+        "Mydon",
+        "Oeonus",
+        "Baykok",
+        "Gregale",
+        "Werethekau",
+        "Chaxiraxi",
+        "Čechie",
+        "Medronho",
+        "Autarieus",
+        "Ctimene",
+        "Enchelus",
+        "Perrhaebus",
+        "Taulas",
+        "Thesprotus",
+        "Soos",
+        "Epimeliad",
+        "Melaina",
+        "Annapoorna_devi",
+        "Asterodia",
+        "Crisus",
+        "Hariasa",
+        "Learchus",
+        "Leucadius",
+        "Stilbe",
+        "Gargasus",
+        "Leitus",
+        "Arae",
+        "Carius",
+        "Dyssebeia",
+        "Ekecheiria",
+        "Epiales"
+    ],
+    "More information about other mythology" : [
+            "yago:Baltic_mythology",
+            "yago:Chinese_mythology",
+            "yago:Hittite_mythology_and_religion",
+            "yago:Hungarian_mythology",
+            "yago:Japanese_mythology",
+            "yago:Māori_mythology",
+            "yago:Pales",
+            "yago:Slavic_mythology",
+            "yago:Turkic_mythology"
+            ]
+  }
+}
+
+
+    loadMythologies();
+
 // for 1 character 2 filters.
 function createTable2(data){
   tableelement = document.getElementById(cooltable);
-  console.log(tableelement);
-  if (tableelement != null || tableelement != undefined){
+  // console.log(tableelement);
+  // if (tableelement != null || tableelement != undefined){
 
-    console.log('reached here')
-     tableelement.innerHTML = '';
-  }
+  //   console.log('reached here')
+  //    tableelement.innerHTML = '';
+  // }
  
         var1 = []
       var2 = []
@@ -221,11 +418,11 @@ function createTable2(data){
 // for 1 character no filter
     function createTable(data){
       tableelement = document.getElementById(cooltable);
-      console.log(tableelement);
-      if (tableelement != null || tableelement != undefined){
-    console.log('reached here')
-     tableelement.innerHTML = '';
-  }
+  //     console.log(tableelement);
+  //     if (tableelement != null || tableelement != undefined){
+  //   console.log('reached here')
+  //    tableelement.innerHTML = '';
+  // }
       $("#").click(function(){ $("div").empty(); }); 
       var1 = []
       var2 = []
@@ -415,6 +612,20 @@ function createTable2(data){
               http.send(null);
         }
 
+function loadMythologies(){
+        // console.log(data["character_map"]["Indian"]);
+       var keys =  Object.keys(data["character_map"]); 
+       var mythology_select = document.getElementById("mythology"); 
+        // var characterselect = document.getElementById("characterselect");
+
+       let optionHTML = '';
+       for (var uv of keys) {
+          optionHTML += "<option value=\"" + uv + "\">" + uv + "</option>";
+        }
+        mythology_select.innerHTML = optionHTML;
+  }
+
+
   function updateProperties(){
     var col_select = document.getElementById('characterselect');
     var uv_select = document.getElementById('filters');
@@ -439,15 +650,16 @@ function refreshList(e) {
   var uv_select = document.getElementById('characterselect');
   column = col_select.value;
   console.log(column)
-  var mythology_characters = {"mahabharat": [],
-        "Greek" : ["Zeus", 
-        "Hera", 
-        "Poseidon", 
-        "Hades", 
-        "Athena", 
-        "Pandora"
+  var mythology_characters  = data['character_map'];
+  // var mythology_characters = {"mahabharat": [],
+  //       "Greek" : ["Zeus", 
+  //       "Hera", 
+  //       "Poseidon", 
+  //       "Hades", 
+  //       "Athena", 
+  //       "Pandora"
 
-    ]}
+  //   ]}
   var optionHTML = '';
   if (mythology_characters[column]) {
     for (var uv of mythology_characters[column]) {
