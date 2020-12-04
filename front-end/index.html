@@ -597,6 +597,7 @@ function createTable2(data){
             for (var i=0; i< characters.length; i++){
               params += "character" + i.toString() + "=" + characters[i] + "&";
             }
+            params += "mythology=Greek";
 
             // // console.log(params);
             var http = new XMLHttpRequest();
@@ -604,7 +605,8 @@ function createTable2(data){
               http.onreadystatechange = function()
               {
                   if(http.readyState == 4 && http.status == 200) {
-
+                      // console.log(http.responseText);
+                      console.log(http.responseText);
                       filters = JSON.parse(http.responseText);
                       updateProperties();
                     }
@@ -671,7 +673,7 @@ function refreshList(e) {
 }
 
 $('#characterselect').on('change', function() {
-  console.log("hey");
+  // console.log("hey");
   $('#characterselect').selectpicker('refresh');
 });
 

@@ -3,8 +3,8 @@ import json
 from SPARQLWrapper import SPARQLWrapper, JSON, XML
 
 
-# sparql = SPARQLWrapper("http://dbpedia.org/sparql")
-sparql = SPARQLWrapper("http://3.101.82.158:3030/SER531")
+# sparql1 = SPARQLWrapper("http://dbpedia.org/sparql")
+# sparql2 = SPARQLWrapper("http://3.101.82.158:3030/SER531")
 
 prefix_template = "<http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#{0}>"
 
@@ -16,17 +16,38 @@ clause_template = '''
 
 '''
 
+# fuseki 1 endpoint
 template_3 = '''
 	PREFIX dbo: <http://dbpedia.org/ontology/>
 	PREFIX dbr: <http://dbpedia.org/resource/>
 	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 	PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 	PREFIX dbo: <http://dbpedia.org/ontology/>
+	PREFIX SER531: <http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#>
 	SELECT  ?predicate ?object
 	WHERE {{
-	 dbr:{subject} ?predicate ?object .
+	 SER531:{subject} ?predicate ?object .
 	}}
-	
+
+'''
+
+
+
+# dbpedia endpoint
+template_4 = '''
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX ser531: <http://dbpedia.org/ontology/>
+SELECT distinct  ?object2 ?object3
+WHERE {{dbr:{character} rdfs:label ?object2.
+dbr:{character} ser531:abstract ?object3.
+
+FILTER(lang(?object2)="en").
+FILTER(lang(?object3)="en").
+}}
 
 '''
 
@@ -72,13 +93,16 @@ def get_predicates(data={}):
 			if binding["predicate"]["type"] == 'uri':
 				val = binding["predicate"]['value'].split('#')[1]
 				if val != 'type':
-					predicates.append(binding["predicate"]['value'].split('#')[1])
+					if '#' in binding["predicate"]['value']:
+						print( binding["predicate"]['value'])
+						predicates.append(binding["predicate"]['value'].split('#')[1])
 	return list(set(predicates))
 
 '''
 	result Fuseki endpoint.
 '''
-def load_data(query):
+def load_data(query, endpoint):
+	sparql = SPARQLWrapper(endpoint)
 	sparql.setQuery(query)
 	sparql.setReturnFormat(JSON)
 	results = sparql.query().convert()
@@ -128,4 +152,9 @@ def form_query4(character):
 	# subject1 = prefix2.format(character)
 	# clause1 = clause_template.format(subject=vars, predicate='?property', object='?object')
 	query = template_3.format(subject=character)
+	return query
+
+
+def form_query5(character):
+	query = template_4.format(character=character)
 	return query
