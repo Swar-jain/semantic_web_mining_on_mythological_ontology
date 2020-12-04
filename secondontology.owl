@@ -1971,7 +1971,9 @@
 
     <!-- http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Zhinü -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Zhinü"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Zhinü">
+        <rdf:type rdf:resource="http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#Female"/>
+    </owl:NamedIndividual>
     
 
 
