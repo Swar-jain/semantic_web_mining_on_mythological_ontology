@@ -12,6 +12,8 @@
      -->
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
+        <!-- <div style="background-image: url('mythology_squarespace.jpg');"> -->
+
         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
         <script src="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"></script>  
 
@@ -36,17 +38,6 @@
      <!--  <li class="nav-item">
         <a class="nav-link" href="#">Link</a>
       </li> -->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
   </div>
 </nav>
 
@@ -80,10 +71,15 @@
       </select>
     </div> -->
     <!-- </div> -->
-
-    <button id="searchbutton" type="button" onclick="process()" class="btn btn-success">Search</button>
-  </div>
+<div class="col-sm">
+      <button id="searchbutton" type="button" onclick="process()" class="btn btn-success">Search</button>
     </div>
+    <div class="col-sm">
+  <button id="searchbutton" type="button" onclick="location.reload(true)" class="btn btn-success">Clear Filters</button>
+</div>
+    </div>
+
+  </div>
 
     <div class="container">
       <div class="row">
@@ -110,24 +106,65 @@
 
     var data = {
   "character_map":{
-    "Indian": [],
+
+    "Indian": [
+        "Ekalavya",
+        "Karna",
+        "Bhishma",
+        "Durvasa",
+        "Shantanu",
+        "Shakuni",
+        "Drona",
+        "Ashwathama",
+        "Keechaka",
+        "Sudheshana",
+        "Yudhisthira",
+        "Draupadi",
+        "Arjun",
+        "Bhim",
+        "Nakul",
+        "Sahadev",
+        "Kunti",
+        "Pandu",
+        "Vishnu",
+        "Matsya",
+        "Kurma",
+        "Rama",
+        "Dasaratha",
+        "Kausalya",
+        "Sita",
+        "Lakshmana",
+        "Janak",
+        "Ravana",
+        "Urmila",
+        "Bharata",
+        "Shatrughna",
+        "Krishna",
+        "Vishwamitra",
+        "Ganga",
+        "Himavan",
+        "Lava",
+        "Kusha",
+        "Kaikeyi",
+        "Sumitra"
+    ],
     "Greek" : ["Zeus",
-        "Hera", 
-        "Poseidon", 
-        "Hades", 
-        "Athena", 
-        "Apollo", 
-        "Artemis", 
-        "Aphrodite", 
-        "Hermes", 
-        "Ares", 
-        "Hephaestus", 
-        "Gaea", 
-        "Ouranos", 
+        "Hera",
+        "Poseidon",
+        "Hades",
+        "Athena",
+        "Apollo",
+        "Artemis",
+        "Aphrodite",
+        "Hermes",
+        "Ares",
+        "Hephaestus",
+        "Gaea",
+        "Ouranos",
         "Prometheus",
         "Epimetheus",
         "Atlas",
-        "Cronus", 
+        "Cronus",
         "Dionysus",
         "Demeter",
         "Persephone",
@@ -160,7 +197,7 @@
         "Helen",
         "Hector",
         "Aeneas",
-        "Achilles", 
+        "Achilles",
         "Troy",
         "Trojan",
         "Pandora",
@@ -187,6 +224,88 @@
         "Acrisius",
         "Actaeus"
     ],
+    "Chinese" : [
+      "BaiSuzhen",
+      "CaoGuojiu",
+      "Creation",
+      "CuiYingying",
+      "Culture",
+      "Dao",
+      "DaodeTianzun",
+      "Dragonland",
+      "East",
+      "Education",
+      "Fangfeng",
+      "FengMeng",
+      "GaoYao",
+      "godOfWealthAndMerit",
+      "Gogayya",
+      "GongGong",
+      "GuanYu",
+      "HanXiangzi",
+      "HanZhongli",
+      "Health",
+      "HeXiangu",
+      "HouYi",
+      "Houyi",
+      "King'sDome",
+      "KuaFu",
+      "KuiXing",
+      "LanCaihe",
+      "LaurelMoon",
+      "LeiGong",
+      "LiangShanbo",
+      "Lifespan",
+      "LingbaoTianzun",
+      "LiTieguai",
+      "Love",
+      "LungMo",
+      "LüDongbin",
+      "Mazu",
+      "MengPo",
+      "Merit",
+      "Middleworld",
+      "Moon",
+      "Nezha",
+      "Niulang",
+      "North",
+      "N√ºwa",
+      "Ocean",
+      "Pangu",
+      "Pastures",
+      "Realms",
+      "Sea",
+      "sea",
+      "Siming",
+      "South",
+      "Sun",
+      "TamKung",
+      "TangXuanzong",
+      "Tao",
+      "TheCowherdAndWeaverGirl",
+      "ThreeAugustOnesAndFiveEmperors",
+      "ThreePureOnes",
+      "Thunder",
+      "TuDiGong",
+      "TuErShen",
+      "Underworld",
+      "war",
+      "WenchangWang",
+      "West",
+      "WongTaiSin",
+      "WuGang",
+      "XiWangmu",
+      "XuXian",
+      "YangYuhuan",
+      "Yu",
+      "YuanshiTianzun",
+      "ZhangGuolao",
+      "ZhangSheng",
+      "Zhinu",
+      "ZhuYingtai."
+
+    ],
+
     "Noted Fictional Characters" : [
         "Brandy",
         "Castalia",
@@ -287,18 +406,8 @@
         "Dyssebeia",
         "Ekecheiria",
         "Epiales"
-    ],
-    "More information about other mythology" : [
-            "yago:Baltic_mythology",
-            "yago:Chinese_mythology",
-            "yago:Hittite_mythology_and_religion",
-            "yago:Hungarian_mythology",
-            "yago:Japanese_mythology",
-            "yago:Māori_mythology",
-            "yago:Pales",
-            "yago:Slavic_mythology",
-            "yago:Turkic_mythology"
-            ]
+    ]
+
   }
 }
 
@@ -414,6 +523,112 @@ function createTable2(data){
 
         
 }
+
+function createTable3(data){
+  tableelement = document.getElementById(cooltable);
+
+ 
+        var1 = []
+      var2 = []
+
+      console.log(data)
+      var vars = data['head']['vars'];
+
+      var bindings = data['results']['bindings'];
+
+
+      for (var i=0; i < bindings.length; i++){
+        binding = bindings[i]
+          for (var j=0; j< vars.length; j++){
+            if (vars[j] in binding){ 
+              binding[vars[j]]['value']
+              if (vars[j] === 'object2'){
+                var1.push(binding['object2']['value'])
+              }
+              else if (vars[j] === 'object3'){
+                 var2.push(binding['object3']['value'])
+              }
+              
+
+            }
+          }
+      } 
+
+       var tbl = document.createElement('table');
+         tbl.setAttribute("class", "table");
+
+         var thead = document.createElement('thead');
+          var tr = document.createElement('tr');
+
+          var th0 = document.createElement('th0');
+          th0.setAttribute("scope", "col");
+          th0.innerText = 'number';
+
+          var th = document.createElement('th');
+          th.setAttribute("scope", "col");
+          th.innerText = 'Label';
+
+          var th1 = document.createElement('th');
+          th1.setAttribute("scope", "col");
+          th1.innerText = 'Abstract';
+
+          tr.appendChild(th0);
+          tr.appendChild(th);
+          tr.appendChild(th1);
+
+          thead.appendChild(tr);
+
+          // tbl.appendChild(thead);
+
+           var tbdy = document.createElement('tbody'); 
+
+           // var tr = document.createElement('tr');
+          for (var i = 0; i < var1.length; i++) {
+            var tr = document.createElement('tr');
+            var th = document.createElement('th');
+            th.setAttribute("scope", "row");
+            th.innerText = i+1;
+
+
+            var td1 = document.createElement('td');
+            td1.innerText = var1[i];
+
+            var td2 = document.createElement('td');
+            td2.innerText = var2[i]; 
+            tr.appendChild(th);
+            tr.appendChild(td1);
+            tr.appendChild(td2);
+            tbdy.appendChild(tr);
+          }
+         
+          // tableelement.appendChild;
+          // console.log(tbl);
+
+
+         // for (var i = 0; i < var2.length; i++) {
+         //    var tr = document.createElement('tr');
+         //    var th = document.createElement('th');
+         //    th.setAttribute("scope", "row");
+         //    th.innerText = i+1;
+
+
+         //    var td1 = document.createElement('td');
+         //    td1.innerText = selected_filters[1];
+
+         //    var td2 = document.createElement('td');
+         //    td2.innerText = var2[i]; 
+         //    tr.appendChild(th);
+         //    tr.appendChild(td1);
+         //    tr.appendChild(td2);
+         //    tbdy.appendChild(tr);
+         //  }
+           cooltable.appendChild(thead);
+          cooltable.appendChild(tbdy);
+
+        
+}
+
+
 
 // for 1 character no filter
     function createTable(data){
@@ -563,7 +778,12 @@ function createTable2(data){
       }
       else{
         response = httpGet2('nofilters', params);
+        if(selected_mythology === "Noted Fictional Characters"){
+          createTable3(JSON.parse(response));
+        }
+        else{
         createTable2(JSON.parse(response));
+      }
       }
       // console.log(response);
       // console.log();
@@ -619,8 +839,9 @@ function loadMythologies(){
        var keys =  Object.keys(data["character_map"]); 
        var mythology_select = document.getElementById("mythology"); 
         // var characterselect = document.getElementById("characterselect");
-
+        console.log(keys);
        let optionHTML = '';
+       optionHTML += "<option value=\"" + "Select" + "\">" + "Select" + "</option>"
        for (var uv of keys) {
           optionHTML += "<option value=\"" + uv + "\">" + uv + "</option>";
         }
@@ -632,7 +853,6 @@ function loadMythologies(){
     var col_select = document.getElementById('characterselect');
     var uv_select = document.getElementById('filters');
   column = col_select.value;
-  console.log(column)
   properties = filters;
 
   var optionHTML = '';

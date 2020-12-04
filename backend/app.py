@@ -49,13 +49,15 @@ def nofilter():
 	elif mythology == "Noted Fictional Characters":
 		if character:
 			query = load_data.form_query5(character)
-			# print(query)
 			data = load_data.load_data(query, "http://dbpedia.org/sparql")
-			# result = load_data.clean_data(data)
-			# print(data)
 			result = data
-		# if result:
-		# 	response = data
+
+	elif mythology == "Chinese":
+		if character:
+			query = load_data.form_query4(character)
+			print(query)
+			data = load_data.load_data(query, "http://54.183.203.151:3030/Chinese")
+			result = load_data.clean_data(data)
 	return result
 
 
