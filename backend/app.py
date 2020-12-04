@@ -18,10 +18,25 @@ def show_dropdown_list():
 	response = {'result': []}
 	result = []
 	data = request.args.get("character0")
+	print(data)
 	if data:
 		query = load_data.form_query(data)
 		data = load_data.load_data(query)
 		result = load_data.get_predicates(data)
+	if result:
+		response['result'] = result
+	return response
+
+@app.route('/nofilters/')
+def nofilter():
+	response = {'result': []}
+	result = []
+	data = request.args.get("character0")
+	print(data)
+	if data:
+		query = load_data.form_query(data)
+		data = load_data.load_data(query)
+		result = load_data.clean_data(data)
 	if result:
 		response['result'] = result
 	return response
@@ -40,17 +55,17 @@ def process():
 
 @app.route('/singlecharacter/')
 def show_result():
-	character = request.args.get('character')
+	character = request.args.get('character0')
 	filters = []
 	vars = []
+	filters.append(request.args.get('filter0'))
 	filters.append(request.args.get('filter1'))
-	filters.append(request.args.get('filter2'))
 	vars.append(request.args.get('var1'))
 	vars.append(request.args.get('var2'))
 	vars.append(request.args.get('var3'))
 	query = load_data.form_query2(character, filters, vars)
 	data = load_data.load_data(query)
-	data = load_data.clean_data(data, character, filter1, filter2)
+	data = load_data.clean_data(data)
 	return data
 
 @app.route('/multicharacter/')
@@ -71,18 +86,18 @@ def multicharacter():
 	return data
 
 
-@app.route('/dbpedia/')
-def singlecharacter():
-	character1 = request.args.get('character')
-	# filters = []
-	# # vars = []
-	# filter = request.args.get('filter')
-	# vars = request.args.get('vars')
-	# filters.append(request.args.get('filter2'))
-	# vars.append(request.args.get('var1'))
-	# vars.append(request.args.get('var2'))
-	# vars.append(request.args.get('var3'))
-	query = load_data.form_query4(character1)
-	data = load_data.load_data(query)
-	data = load_data.clean_data(data)
-	return data
+# @app.route('/dbpedia/')
+# def singlecharacter3():
+# 	character1 = request.args.get('character')
+# 	# filters = []
+# 	# # vars = []
+# 	# filter = request.args.get('filter')
+# 	# vars = request.args.get('vars')
+# 	# filters.append(request.args.get('filter2'))
+# 	# vars.append(request.args.get('var1'))
+# 	# vars.append(request.args.get('var2'))
+# 	# vars.append(request.args.get('var3'))
+# 	query = load_data.form_query4(character1)
+# 	data = load_data.load_data(query)
+# 	data = load_data.clean_data(data)
+# 	return data

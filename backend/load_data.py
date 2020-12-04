@@ -2,8 +2,8 @@ import requests
 import json
 from SPARQLWrapper import SPARQLWrapper, JSON, XML
 
-# sparql = SPARQLWrapper("http://3.101.82.158:3030/SER531")
-sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+sparql = SPARQLWrapper("http://3.101.82.158:3030/SER531")
+# sparql = SPARQLWrapper("http://dbpedia.org/sparql")
 
 
 prefix_template = "<http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#{0}>"
@@ -48,7 +48,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX SER531: <http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#> SELECT DISTINCT {object} WHERE {{ {{{where_clause1}}} UNION {{{where_clause2}}} }}
 '''
 
-def clean_data(data={}, filters=[]):
+def clean_data(data={}):
 	result ={}
 	vars = data['head']['vars']
 	bindings = data['results']['bindings']

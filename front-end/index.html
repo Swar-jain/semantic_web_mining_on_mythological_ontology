@@ -112,111 +112,31 @@
     function createTable(data){
       tableelement = document.getElementById(cooltable);
 
-        // var body = document.getElementsByTagName('body')[0];
-   
+      var1 = []
+      var2 = []
 
 
-        // tbl.style.width = '100%';
-        // tbl.setAttribute('border', '1');
-        // var tbdy = document.createElement('tbody');
-        // for (var i = 0; i < 3; i++) {
-        //   var tr = document.createElement('tr');
-        //   for (var j = 0; j < 2; j++) {
-        //     if (i == 2 && j == 1) {
-        //       break
-        //     } else {
-        //       var td = document.createElement('td');
-        //       td.appendChild(document.createTextNode('\u0020'))
-        //       i == 1 && j == 1 ? td.setAttribute('rowSpan', '2') : null;
-        //       tr.appendChild(td)
-        //     }
-        //   }
-        //   tbdy.appendChild(tr);
-        // }
-        // tbl.appendChild(tbdy);
-        // body.appendChild(tbl)
-        // tData = {}
+      var vars = data['head']['vars'];
+
+      var bindings = data['results']['bindings'];
 
 
+      for (var i=0; i < bindings.length; i++){
+        binding = bindings[i]
+          for (var j=0; j< vars.length; j++){
+            if (vars[j] in binding){ 
+              binding[vars[j]]['value']
+              if (vars[j] === 'var1'){
+                var1.push(binding['var1']['value'])
+              }
+              else if (vars[j] === 'var2'){
+                 var2.push(binding['var2']['value'])
+              }
+              
 
-
-  var1 = []
-  var2 = []
-
-//   data = {
-//    "head":{
-//       "vars":[
-//          "var1",
-//          "var2",
-//          "var3"
-//       ]
-//    },
-//    "results":{
-//       "bindings":[
-//          {
-//             "var1":{
-//                "type":"uri",
-//                "value":"Mount_Olympus"
-//             },
-//             "var2":{
-//                "type":"uri",
-//                "value":"Hades"
-//             }
-//          },
-//          {
-//             "var1":{
-//                "type":"uri",
-//                "value":"Mount_Olympus"
-//             },
-//             "var2":{
-//                "type":"uri",
-//                "value":"Poseidon"
-//             }
-//          },
-//          {
-//             "var1":{
-//                "type":"uri",
-//                "value":"Sky"
-//             },
-//             "var2":{
-//                "type":"uri",
-//                "value":"Hades"
-//             }
-//          },
-//          {
-//             "var1":{
-//                "type":"uri",
-//                "value":"Sky"
-//             },
-//             "var2":{
-//                "type":"uri",
-//                "value":"Poseidon"
-//             }
-//          }
-//       ]
-//    }
-// }
-  var vars = data['head']['vars'];
-
-  var bindings = data['results']['bindings'];
-
-
-  for (var i=0; i < bindings.length; i++){
-    binding = bindings[i]
-      for (var j=0; j< vars.length; j++){
-        if (vars[j] in binding){ 
-          binding[vars[j]]['value']
-          if (vars[j] === 'var1'){
-            var1.push(binding['var1']['value'])
+            }
           }
-          else if (vars[j] === 'var2'){
-             var2.push(binding['var2']['value'])
-          }
-          
-
-        }
-      }
-  } 
+      } 
 
 
 
@@ -320,25 +240,26 @@
       params = getParams();
       console.log(params);
       response = httpGet2('singlecharacter', params);
-      console.log(response);
-      console.log(JSON.parse(response));
-      // createTable(response);
+      // console.log(response);
+      // console.log();
+      createTable(JSON.parse(response));
     }
 
     function httpGet2(theUrl, params){
       var url = "http://127.0.0.1:5000/" + theUrl;
+      var x;
       var http = new XMLHttpRequest();
       http.open("GET", url+"?"+params, false);
       http.onreadystatechange = function()
       {
           if(http.readyState == 4 && http.status == 200) {
             // console.log( JSON.parse(http.responseText));
-            var x =  http.responseText;
-              return x;
-              
+            x =  http.responseText;
+            
             }
       }
       http.send(null);
+      return x;
     }
 
 
