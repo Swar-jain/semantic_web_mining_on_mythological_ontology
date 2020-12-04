@@ -38,7 +38,7 @@ def nofilter():
 		data = load_data.load_data(query)
 		result = load_data.clean_data(data)
 	if result:
-		response['result'] = result
+		response = result
 	return response
 
 
@@ -86,18 +86,11 @@ def multicharacter():
 	return data
 
 
-# @app.route('/dbpedia/')
-# def singlecharacter3():
-# 	character1 = request.args.get('character')
-# 	# filters = []
-# 	# # vars = []
-# 	# filter = request.args.get('filter')
-# 	# vars = request.args.get('vars')
-# 	# filters.append(request.args.get('filter2'))
-# 	# vars.append(request.args.get('var1'))
-# 	# vars.append(request.args.get('var2'))
-# 	# vars.append(request.args.get('var3'))
-# 	query = load_data.form_query4(character1)
-# 	data = load_data.load_data(query)
-# 	data = load_data.clean_data(data)
-# 	return data
+@app.route('/dbpedia/')
+def singlecharacter3():
+	character1 = request.args.get('character')
+	query = load_data.form_query4(character1)
+	print(query)
+	data = load_data.load_data(query)
+	# data = load_data.clean_data(data)
+	return data

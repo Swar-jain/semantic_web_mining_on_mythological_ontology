@@ -108,10 +108,125 @@
     var selected_filters = [];
     var filters = {}
 
+// for 1 character 2 filters.
+function createTable2(data){
+  tableelement = document.getElementById(cooltable);
+  console.log(tableelement);
+  if (tableelement != null || tableelement != undefined){
 
+    console.log('reached here')
+     tableelement.innerHTML = '';
+  }
+ 
+        var1 = []
+      var2 = []
+
+      console.log(data)
+      var vars = data['head']['vars'];
+
+      var bindings = data['results']['bindings'];
+
+
+      for (var i=0; i < bindings.length; i++){
+        binding = bindings[i]
+          for (var j=0; j< vars.length; j++){
+            if (vars[j] in binding){ 
+              binding[vars[j]]['value']
+              if (vars[j] === 'predicate'){
+                var1.push(binding['predicate']['value'])
+              }
+              else if (vars[j] === 'object'){
+                 var2.push(binding['object']['value'])
+              }
+              
+
+            }
+          }
+      } 
+
+       var tbl = document.createElement('table');
+         tbl.setAttribute("class", "table");
+
+         var thead = document.createElement('thead');
+          var tr = document.createElement('tr');
+
+          var th0 = document.createElement('th0');
+          th0.setAttribute("scope", "col");
+          th0.innerText = 'number';
+
+          var th = document.createElement('th');
+          th.setAttribute("scope", "col");
+          th.innerText = 'predicate';
+
+          var th1 = document.createElement('th');
+          th1.setAttribute("scope", "col");
+          th1.innerText = 'object';
+
+          tr.appendChild(th0);
+          tr.appendChild(th);
+          tr.appendChild(th1);
+
+          thead.appendChild(tr);
+
+          // tbl.appendChild(thead);
+
+           var tbdy = document.createElement('tbody'); 
+
+           // var tr = document.createElement('tr');
+          for (var i = 0; i < var1.length; i++) {
+            var tr = document.createElement('tr');
+            var th = document.createElement('th');
+            th.setAttribute("scope", "row");
+            th.innerText = i+1;
+
+
+            var td1 = document.createElement('td');
+            td1.innerText = var1[i];
+
+            var td2 = document.createElement('td');
+            td2.innerText = var2[i]; 
+            tr.appendChild(th);
+            tr.appendChild(td1);
+            tr.appendChild(td2);
+            tbdy.appendChild(tr);
+          }
+         
+          // tableelement.appendChild;
+          // console.log(tbl);
+
+
+         // for (var i = 0; i < var2.length; i++) {
+         //    var tr = document.createElement('tr');
+         //    var th = document.createElement('th');
+         //    th.setAttribute("scope", "row");
+         //    th.innerText = i+1;
+
+
+         //    var td1 = document.createElement('td');
+         //    td1.innerText = selected_filters[1];
+
+         //    var td2 = document.createElement('td');
+         //    td2.innerText = var2[i]; 
+         //    tr.appendChild(th);
+         //    tr.appendChild(td1);
+         //    tr.appendChild(td2);
+         //    tbdy.appendChild(tr);
+         //  }
+           cooltable.appendChild(thead);
+          cooltable.appendChild(tbdy);
+
+        
+}
+
+// for 1 character no filter
     function createTable(data){
       tableelement = document.getElementById(cooltable);
-
+      console.log(tableelement);
+      if (tableelement != null || tableelement != undefined){
+    console.log('reached here')
+     tableelement.innerHTML = '';
+  }
+      $("#").click(function(){ $("div").empty(); }); 
       var1 = []
       var2 = []
 
@@ -225,12 +340,18 @@
       selected_characters = $('#characterselect').val();
       selected_filters = $('#filters').val();
       params = '';
-      for (var i=0; i< selected_characters.length; i++){
-              params += "character" + i.toString() + "=" + selected_characters[i] + "&";
-            }
-      for (var i=0; i< selected_filters.length; i++){
-              params += "filter" + i.toString() + "=" + selected_filters[i] + "&";
-            }
+      // console.log(selected_filters);
+      if (selected_characters != null){
+        for (var i=0; i< selected_characters.length; i++){
+                params += "character" + i.toString() + "=" + selected_characters[i] + "&";
+              }
+      }
+
+      if (selected_filters != null){
+        for (var i=0; i< selected_filters.length; i++){
+                params += "filter" + i.toString() + "=" + selected_filters[i] + "&";
+              }
+      }
       params += 'mythology=' +  selected_mythology + "&" + 'var1=' + '?var1&' + 'var2=' + '?var2&' + 'var3=' + '?var3';
       return params;
       
@@ -239,10 +360,17 @@
     function process(){
       params = getParams();
       console.log(params);
-      response = httpGet2('singlecharacter', params);
+      if(selected_filters != null){
+        response = httpGet2('singlecharacter', params);
+        createTable(JSON.parse(response));
+      }
+      else{
+        response = httpGet2('nofilters', params);
+        createTable2(JSON.parse(response));
+      }
       // console.log(response);
       // console.log();
-      createTable(JSON.parse(response));
+      
     }
 
     function httpGet2(theUrl, params){
