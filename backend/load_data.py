@@ -48,7 +48,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX SER531: <http://www.semanticweb.org/swarnalatha/ontologies/2020/10/untitled-ontology-28#> SELECT DISTINCT {object} WHERE {{ {{{where_clause1}}} UNION {{{where_clause2}}} }}
 '''
 
-def clean_data(data={}):
+def clean_data(data={}, filters=[]):
+	result ={}
 	vars = data['head']['vars']
 	bindings = data['results']['bindings']
 
@@ -57,6 +58,8 @@ def clean_data(data={}):
 			if var in binding:
 				if binding[var]['type'] == 'uri':
 					binding[var]['value'] = binding[var]['value'].split('#')[1]
+					
+
 	return data
 
 def get_predicates(data={}):

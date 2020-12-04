@@ -50,7 +50,7 @@ def show_result():
 	vars.append(request.args.get('var3'))
 	query = load_data.form_query2(character, filters, vars)
 	data = load_data.load_data(query)
-	data = load_data.clean_data(data)
+	data = load_data.clean_data(data, character, filter1, filter2)
 	return data
 
 @app.route('/multicharacter/')
