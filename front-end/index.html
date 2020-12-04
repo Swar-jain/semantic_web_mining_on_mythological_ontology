@@ -4,13 +4,21 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
+     -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"></script>  
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+       
     <title>Mythology Data!</title>
   </head>
   <body>
@@ -56,21 +64,21 @@
   <div class="row">
     <div class="col-sm">
         <h6>Mythology</h6>
-      <select name="mythology" id="mythology">
+      <select name="mythology" id="mythology" class="selectpicker" onchange="refreshList(event);" >
         <option value="Indian">Indian</option>
         <option value="Greek">Greek</option>
       </select>
     </div>
     <div class="col-sm">
         <h6>Characters</h6>
-     <select name="characters" id="characterselect">
+     <select name="characters" id="characterselect" class="selectpicker" onchange="updateProperties(event);" multiple data-live-search="true" >
         <option value="Arjun">Arjun</option>
         <option value="Draupadi">Draupadi</option>
       </select>
     </div>
         <div class="col-sm">
                    <h6>Filters</h6>
-     <select name="filters" id="filters">
+     <select name="filters" id="filters" class="selectpicker" multiple data-live-search="true">
       </select>
     </div>
             <!-- </div> -->
@@ -85,15 +93,6 @@
   </div>
     </div>
 
-
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-   <!--  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
- -->
-
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
   </body>
 
   <script>
@@ -151,15 +150,66 @@
           console.log(myselect);
       }
 
+  function updateProperties(args){
+    var col_select = document.getElementById('characterselect');
+    var uv_select = document.getElementById('filters');
+  column = col_select.value;
+  console.log(column)
+  var properties = {
+              "result": [
+                  "hasFather",
+                  "hasMother",
+                  "isPrinceOf",
+                  "hasPartners",
+                  "hasBrother"
+              ]
+        }
+  var optionHTML = '';
+  if (properties[String("result")]) {
+    for (var uv of properties[String("result")]) {
+      optionHTML += "<option value=\"" + uv + "\">" + uv + "</option>";
+    }
+  }
+  uv_select.innerHTML = optionHTML;
+  $('#filters').trigger('change');
+  }
+
+  console.clear()
+
+function refreshList(e) {
+  var col_select = document.getElementById('mythology');
+  var uv_select = document.getElementById('characterselect');
+  column = col_select.value;
+  console.log(column)
+  var mythology_characters = {"mahabharat": [],
+        "Greek" : ["Zeus", 
+        "Hera", 
+        "Poseidon", 
+        "Hades", 
+        "Athena", 
+        "Pandora"
+
+    ]}
+  var optionHTML = '';
+  if (mythology_characters[column]) {
+    for (var uv of mythology_characters[column]) {
+      optionHTML += "<option value=\"" + uv + "\">" + uv + "</option>";
+    }
+  }
+  uv_select.innerHTML = optionHTML;
+  $('#characterselect').trigger('change');
+}
+
+$('#characterselect').on('change', function() {
+  console.log("hey");
+  $('#characterselect').selectpicker('refresh');
+});
+
+$('#filters').on('change', function() {
+  console.log("hey");
+  $('#filters').selectpicker('refresh');
+});
 
 
-    $('#characterselect').change(function () {
-        var selectedItem = $('#characterselect').val();
-        console.log(selectedItem);
-        httpGet("dropdown", selectedItem);
-        // updateOptions("filtersoptions"
-        // $('.example').append('<option val="'+"newitemnum"+'">'+"newitemdesc"+'</option>')
-        // $('.selectpicker').selectpicker('render');
-    });
   </script>
 </html>
