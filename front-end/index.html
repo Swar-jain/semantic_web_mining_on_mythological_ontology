@@ -762,7 +762,7 @@ function createTable3(data){
       // document.getElementById('iframe').src = document.getElementById('iframe').src
       params = getParams();
       // httpGet3('getgraph', selected_characters)
-      httpGet2('getgraph', params);
+      // httpGet2('getgraph', params);
       console.log(params);
       if(selected_filters != null){
         response = httpGet2('singlecharacter', params);
@@ -786,7 +786,9 @@ function createTable3(data){
 {
 var omyFrame = document.getElementById("myFrame");
 omyFrame.style.display="block";
-omyFrame.src = "/home/ec2-user/project/semantic_web_mining_on_mythological_ontology/backend/unix.gv.pdf";
+// omyFrame.src = "/home/ec2-user/project/semantic_web_mining_on_mythological_ontology/backend/unix.gv.pdf";
+omyFrame.src = "http://3.101.82.158:8080/getgraph/?character0=" + selected_characters[0];
+
 }
 
 
