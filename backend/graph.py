@@ -9,12 +9,6 @@ def draw_graph(character, data):
 	            node_attr={'color': 'lightblue2', 'style': 'filled'})
 	u.attr(size='6,6')
 
-	# u.edge('5th Edition', '6th Edition', label='name')
-	# f = open('dummy.json')
-	# data = json.load(f)
-
-
-	# character = "Idhant"
 	predicates = []
 	objects = []
 
@@ -31,9 +25,5 @@ def draw_graph(character, data):
 	for i in range(len(predicates)):
 		u.edge(character, objects[i], label=predicates[i])
 
-	# Graph('G', filename="idhant.pdf", engine='sfdp')
 
-	# g = Graph(format='png') 
-	# a = open("unix.gv.pdf", "rb").encode("base64")
-	# print(a)
 	u.render();

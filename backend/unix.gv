@@ -1,6 +1,13 @@
 digraph unix {
 	node [color=lightblue2 style=filled]
 	size="6,6"
-	Ekalavya -> Male [label=type]
-	Ekalavya -> NamedIndividual [label=type]
+	Hades -> Gods [label=type]
+	Hades -> Male [label=type]
+	Hades -> Planet [label=type]
+	Hades -> NamedIndividual [label=type]
+	Hades -> Hades [label=isGuardOf]
+	Hades -> Poseidon [label=hasBrother]
+	Hades -> Zeus [label=hasBrother]
+	Hades -> Persephone [label=hasPartners]
+	Hades -> Pluto [label=AliasName]
 }

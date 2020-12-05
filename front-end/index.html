@@ -25,7 +25,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Mythology</a>
+  <a class="navbar-brand" href="#">Mythology App</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -72,12 +72,22 @@
     </div> -->
     <!-- </div> -->
 <div class="col-sm">
+<div class=row>
+
       <button id="searchbutton" type="button" onclick="process()" class="btn btn-success">Search</button>
-    </div>
-    <div class="col-sm">
+    </div><br><br>
+
+   <div class=row>
   <button id="sdfsdfsf" type="button" onclick="location.reload(true)" class="btn btn-success">Clear Filters</button>
-    <button type="button" class="btn btn-success">visualize</button>
+
+</div><br><br>
+
+   <div class=row>
+      <input type="button" value="Visualize Character" class="btn btn-success" onclick = "openPdf()"/>
+  
 </div>
+
+
     </div>
 
 
@@ -100,9 +110,10 @@
 
 </div>
 
+<div class="container">
+  <iframe id="myFrame" style="display:none" width="600" height="300"></iframe>
 
-<iframe id="myFrame" style="display:none" width="600" height="300"></iframe>
-<input type="button" value="Open PDF" onclick = "openPdf()"/>
+</div>
   </body>
 
   <script>
@@ -244,83 +255,64 @@
     "Chinese" : [
       "BaiSuzhen",
       "CaoGuojiu",
-      "Creation",
       "CuiYingying",
-      "Culture",
-      "Dao",
       "DaodeTianzun",
-      "Dragonland",
-      "East",
-      "Education",
+      "Dongwanggong",
+      "Doumu",
       "Fangfeng",
       "FengMeng",
       "GaoYao",
-      "godOfWealthAndMerit",
-      "Gogayya",
       "GongGong",
       "GuanYu",
       "HanXiangzi",
       "HanZhongli",
-      "Health",
       "HeXiangu",
-      "HouYi",
       "Houyi",
-      "King'sDome",
       "KuaFu",
       "KuiXing",
       "LanCaihe",
-      "LaurelMoon",
+      "Lang",
+      "Laozi",
       "LeiGong",
       "LiangShanbo",
-      "Lifespan",
       "LingbaoTianzun",
       "LiTieguai",
-      "Love",
       "LungMo",
       "LüDongbin",
       "Mazu",
       "MengPo",
-      "Merit",
-      "Middleworld",
-      "Moon",
+      "Mugong",
       "Nezha",
       "Niulang",
-      "North",
       "N√ºwa",
-      "Ocean",
       "Pangu",
-      "Pastures",
-      "Realms",
-      "Sea",
-      "sea",
+      "Pengyou",
       "Siming",
-      "South",
-      "Sun",
       "TamKung",
       "TangXuanzong",
-      "Tao",
       "TheCowherdAndWeaverGirl",
       "ThreeAugustOnesAndFiveEmperors",
       "ThreePureOnes",
-      "Thunder",
+      "TongtianJiaozhu",
       "TuDiGong",
       "TuErShen",
-      "Underworld",
-      "war",
+      "ViviparusSpirit",
       "WenchangWang",
-      "West",
       "WongTaiSin",
       "WuGang",
-      "XiWangmu",
+      "Xiwangmu",
       "XuXian",
       "YangYuhuan",
-      "Yu",
+      "Yanwang",
+      "Yinyanggong",
       "YuanshiTianzun",
+      "Yudi",
       "ZhangGuolao",
       "ZhangSheng",
+      "Zhin",
       "Zhinu",
+      "Zhinü",
       "ZhuYingtai."
-
     ],
 
     "Noted Fictional Characters" : [
@@ -427,6 +419,7 @@
 
   }
 }
+
 
 
     loadMythologies();
@@ -788,7 +781,7 @@ function createTable3(data){
 
     function process(){
       // document.getElementById('iframe').location.reload(true);
-      document.getElementById('iframe').src = document.getElementById('iframe').src
+      // document.getElementById('iframe').src = document.getElementById('iframe').src
       params = getParams();
       // httpGet3('getgraph', selected_characters)
       httpGet2('getgraph', params);
@@ -815,13 +808,14 @@ function createTable3(data){
 {
 var omyFrame = document.getElementById("myFrame");
 omyFrame.style.display="block";
-omyFrame.src = "/Users/swarnalatha/Desktop/semantic_web_mining_on_mythological_ontology/backend/unix.gv.pdf ";
+omyFrame.src = "/home/ec2-user/project/semantic_web_mining_on_mythological_ontology/backendunix.gv.pdf ";
 }
 
 
 
     function httpGet2(theUrl, params){
-      var url = "http://127.0.0.1:5000/" + theUrl;
+       // var url = "http://3.101.82.158:8080/"+ theUrl;
+            var url = "http://3.101.82.158:8080/" + theUrl;
       var x;
       var http = new XMLHttpRequest();
       http.open("GET", url+"?"+params, false);
@@ -841,7 +835,7 @@ omyFrame.src = "/Users/swarnalatha/Desktop/semantic_web_mining_on_mythological_o
     function httpGet(theUrl, characters, params='')
         {
             // var url = "http://3.101.82.158:8080/"+ theUrl;
-            var url = "http://127.0.0.1:5000/" + theUrl;
+            var url = "http://3.101.82.158:8080/" + theUrl;
 
             params = '';
             for (var i=0; i< characters.length; i++){

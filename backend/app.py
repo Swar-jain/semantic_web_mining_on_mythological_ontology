@@ -8,7 +8,7 @@ from flask import send_file, send_from_directory, safe_join, abort
 app = Flask(__name__)
 CORS(app)
 
-app.config["CLIENT_IMAGES"] = "/home/idhant96/projects/semantic_web_mining_on_mythological_ontology/backend/"
+app.config["CLIENT_IMAGES"] = "/home/ec2-user/project/semantic_web_mining_on_mythological_ontology/backend"
 
 
 
@@ -77,7 +77,7 @@ def process():
     print(result)
     graph.draw_graph(character, result)
     # return send_from_directory(app.config['CLIENT_IMAGES'],"unix.gv.pdf", as_attachment=True)
-    return send_file('/home/idhant96/projects/semantic_web_mining_on_mythological_ontology/backend/unix.gv.pdf', attachment_filename='something.pdf')
+    return send_file('/home/ec2-user/project/semantic_web_mining_on_mythological_ontology/backend/unix.gv.pdf', attachment_filename='something.pdf')
 
 @app.route('/singlecharacter/')
 def show_result():
