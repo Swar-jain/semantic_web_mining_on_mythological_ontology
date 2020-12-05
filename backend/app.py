@@ -1,5 +1,6 @@
 from flask import Flask
 import load_data
+import graph
 from flask import request
 from flask_cors import CORS
 from flask import send_file, send_from_directory, safe_join, abort
@@ -7,7 +8,7 @@ from flask import send_file, send_from_directory, safe_join, abort
 app = Flask(__name__)
 CORS(app)
 
-app.config["CLIENT_IMAGES"] = "/home/idhant96/projects/semantic_web_mining_on_mythological_ontology/"
+app.config["CLIENT_IMAGES"] = "/home/idhant96/projects/semantic_web_mining_on_mythological_ontology/backend/"
 
 
 
@@ -69,7 +70,14 @@ def nofilter():
 @app.route('/getgraph/')
 def process():
     character = request.args.get('character0')
-    return send_from_directory(app.config['CLIENT_IMAGES'],"unix.gv.pdf", as_attachment=True)
+    
+    query = load_data.form_query4(character)
+    data = load_data.load_data(query, "http://3.101.82.158:3030/SER531")
+    result = load_data.clean_data(data)
+    print(result)
+    graph.draw_graph(character, result)
+    # return send_from_directory(app.config['CLIENT_IMAGES'],"unix.gv.pdf", as_attachment=True)
+    return send_file('/home/idhant96/projects/semantic_web_mining_on_mythological_ontology/backend/unix.gv.pdf', attachment_filename='something.pdf')
 
 @app.route('/singlecharacter/')
 def show_result():

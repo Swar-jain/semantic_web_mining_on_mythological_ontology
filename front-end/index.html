@@ -75,16 +75,14 @@
       <button id="searchbutton" type="button" onclick="process()" class="btn btn-success">Search</button>
     </div>
     <div class="col-sm">
-  <button id="searchbutton" type="button" onclick="location.reload(true)" class="btn btn-success">Clear Filters</button>
+  <button id="sdfsdfsf" type="button" onclick="location.reload(true)" class="btn btn-success">Clear Filters</button>
+    <button type="button" class="btn btn-success">visualize</button>
 </div>
     </div>
 
 
-<button ng-click="fetch()">Get file</button>
 
-<a download="{{filename}}" xd-href="data">
-  <button>SaveAs {{filename}}</button>
-</a>
+
 
 
 
@@ -103,36 +101,13 @@
 </div>
 
 
+<div class="container">
   
-
+   <embed id="iframe" src="/home/idhant96/projects/semantic_web_mining_on_mythological_ontology/backend/unix.gv.pdf" width="800px" height="2100px" />
+ </div>
   </body>
 
   <script>
-
-app.directive("xdHref", function() {
-  return function linkFn (scope, elem, attrs) {
-     scope.$watch(attrs.xdHref, function(newVal) {
-       newVal && elem.attr("href", newVal);
-     });
-  };
-});
-
-
-var url = "http://localhost:4704/api/file/download/1";
-$scope.fetch = function() {
-     $http.get(url, {responseType: "arraybuffer"})
-       .then (function (response) {
-         var disposition = response.headers("content-disposition");
-         var filename = disposition.match(/filename="(\w*.\w*)"/)[1];
-         $scope.filename = filename || "f.bin";
-         $scope.data = new Blob([response.data]);
-     }).catch(function (error) {
-         console.log(error);
-         throw error;
-     });
-};
-
-
 
 
 
@@ -814,7 +789,11 @@ function createTable3(data){
     }
 
     function process(){
+      // document.getElementById('iframe').location.reload(true);
+      document.getElementById('iframe').src = document.getElementById('iframe').src
       params = getParams();
+      // httpGet3('getgraph', selected_characters)
+      httpGet2('getgraph', params);
       console.log(params);
       if(selected_filters != null){
         response = httpGet2('singlecharacter', params);
