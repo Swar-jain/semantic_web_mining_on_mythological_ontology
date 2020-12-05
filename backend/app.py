@@ -9,6 +9,8 @@ app = Flask(__name__)
 CORS(app)
 
 app.config["CLIENT_IMAGES"] = "/home/ec2-user/project/semantic_web_mining_on_mythological_ontology/backend"
+# app.config["CLIENT_IMAGES"] = "/var/www/html"
+
 
 
 
