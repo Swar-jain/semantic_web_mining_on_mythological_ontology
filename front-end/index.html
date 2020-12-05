@@ -101,10 +101,8 @@
 </div>
 
 
-<div class="container">
-  
-   <embed id="iframe" src="/home/idhant96/projects/semantic_web_mining_on_mythological_ontology/backend/unix.gv.pdf" width="800px" height="2100px" />
- </div>
+<iframe id="myFrame" style="display:none" width="600" height="300"></iframe>
+<input type="button" value="Open PDF" onclick = "openPdf()"/>
   </body>
 
   <script>
@@ -812,6 +810,15 @@ function createTable3(data){
       // console.log();
       
     }
+
+    function openPdf()
+{
+var omyFrame = document.getElementById("myFrame");
+omyFrame.style.display="block";
+omyFrame.src = "/Users/swarnalatha/Desktop/semantic_web_mining_on_mythological_ontology/backend/unix.gv.pdf ";
+}
+
+
 
     function httpGet2(theUrl, params){
       var url = "http://127.0.0.1:5000/" + theUrl;
