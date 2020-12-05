@@ -16,7 +16,7 @@
   The application is fully setup on the github repo : https://github.com/Swar-jain/semantic_web_mining_on_mythological_ontology
   The demo of the project is posted at the link: https://youtu.be/DTJq_nqnnKo
   The endpoints are up and running on the AWS.
-  Please find the index.html file (/front-end/index.html) and run it on the browser.
+  Please run the IP : http://3.101.82.158/ on the browser to access the front page
    
  
 
