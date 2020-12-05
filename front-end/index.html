@@ -79,6 +79,15 @@
 </div>
     </div>
 
+
+<button ng-click="fetch()">Get file</button>
+
+<a download="{{filename}}" xd-href="data">
+  <button>SaveAs {{filename}}</button>
+</a>
+
+
+
   </div>
 
     <div class="container">
@@ -99,6 +108,41 @@
   </body>
 
   <script>
+
+app.directive("xdHref", function() {
+  return function linkFn (scope, elem, attrs) {
+     scope.$watch(attrs.xdHref, function(newVal) {
+       newVal && elem.attr("href", newVal);
+     });
+  };
+});
+
+
+var url = "http://localhost:4704/api/file/download/1";
+$scope.fetch = function() {
+     $http.get(url, {responseType: "arraybuffer"})
+       .then (function (response) {
+         var disposition = response.headers("content-disposition");
+         var filename = disposition.match(/filename="(\w*.\w*)"/)[1];
+         $scope.filename = filename || "f.bin";
+         $scope.data = new Blob([response.data]);
+     }).catch(function (error) {
+         console.log(error);
+         throw error;
+     });
+};
+
+
+
+
+
+
+
+
+
+
+
+
     var selected_mythology='';
     var selected_characters=[];
     var selected_filters = [];

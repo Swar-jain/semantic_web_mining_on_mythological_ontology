@@ -2,9 +2,14 @@ from flask import Flask
 import load_data
 from flask import request
 from flask_cors import CORS
+from flask import send_file, send_from_directory, safe_join, abort
 
 app = Flask(__name__)
 CORS(app)
+
+app.config["CLIENT_IMAGES"] = "/home/idhant96/projects/semantic_web_mining_on_mythological_ontology/"
+
+
 
 @app.route('/')
 def hello_world():
@@ -61,16 +66,10 @@ def nofilter():
 	return result
 
 
-@app.route('/process/', methods=["POST"])
+@app.route('/getgraph/')
 def process():
-    req = request.get_json()
-    print(req)
-    # response.headers['Access-Control-Allow-Origin'] = '*'
-    # response.content_type = "application/json"
-    # response.data = req
-    return req
-
-
+    character = request.args.get('character0')
+    return send_from_directory(app.config['CLIENT_IMAGES'],"unix.gv.pdf", as_attachment=True)
 
 @app.route('/singlecharacter/')
 def show_result():
@@ -112,11 +111,11 @@ def show_result():
 # 	return data
 
 
-@app.route('/dbpedia/')
-def singlecharacter3():
-	character1 = request.args.get('character')
-	query = load_data.form_query4(character1)
-	print(query)
-	data = load_data.load_data(query)
-	# data = load_data.clean_data(data)
-	return data
+# @app.route('/dbpedia/')
+# def singlecharacter3():
+# 	character1 = request.args.get('character')
+# 	query = load_data.form_query4(character1)
+# 	print(query)
+# 	data = load_data.load_data(query)
+# 	# data = load_data.clean_data(data)
+# 	return data
